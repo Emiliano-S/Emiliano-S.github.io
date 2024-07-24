@@ -1,0 +1,398 @@
+{
+  "navbar": {
+    "price": "Precios",
+    "why": "¿Por qué este test de IQ?",
+    "reviews": "Reviews",
+    "take_test": "Realiza el test"
+  },
+  "footer":{
+    "unsubscribe": "Cancelar suscripción",
+    "terms": "Términos y condiciones",
+    "policy": "Política de privacidad",
+    "contact_email": "Respuesta en menos de 24 horas",
+    "what_is": "¿Qué es el coeficiente intelectual (IQ)?"
+  },
+  "certificate": {
+    "title": "CERTIFICADO DE COCIENTE INTELECTUAL",
+    "download": "Descargar certificado",
+    "subtitle": "Se certifica que",
+    "text": "ha completado exitosamente el examen intelectual con el siguiente puntaje",
+    "serial_number": "Número de serie del certificado",
+    "administrator": "Administrador"
+  },
+  "payment_form": {
+    "credit_card": "Tarjeta de crédito",
+    "apple_pay": "Pagar con Apple Pay",
+    "google_pay": "Pagar con Google Pay",
+    "card-number":{
+      "label": "Número de tarjeta"
+    },
+    "card-date":{
+      "label": "Fecha de expiración"
+    },
+    "email": {
+      "label": "Correo electrónico",
+      "error": {
+        "required": "El correo electrónico es obligatorio.",
+        "invalid": "El formato del correo electrónico no es válido."
+      }
+    },
+    "password":{
+      "label": "Password",
+      "error":{
+        "required": "La password es obligatorio.",
+        "minLength": "8 caracteres mínimo"
+      }
+    },
+    "name": {
+      "label": "Nombre y apellido",
+      "error": {
+        "required": "El nombre y apellido son obligatorios."
+      }
+    },
+    "terms":{
+      "label": "He leído y acepto los <a href='#/terms' _blank>términos y condiciones!</a>",
+      "error":{
+        "required": "Tienes que aceptar los términos y condiciones"
+      }
+    },
+    "result": "Obtener mi resultado"
+  },
+  "unsubscribe": {
+    "title": "Desuscribirse de IQ Test",
+    "form":{
+      "label": "Correo electrónico:",
+      "error":{
+        "required": "El correo electrónico es obligatorio.",
+        "invalidEmail": "El formato del correo electrónico no es válido."
+      }
+    },
+    "button": "Desuscribir"
+  },
+  "user-menu": {
+    "certificate": "Mis certificados",
+    "admin_dashboard": "Panel de preguntas",
+    "admin_user": "Stats de usuarios",
+    "admin_configuration": "Configuración de la aplicación"
+  },
+  "admin":{
+    "pages":{
+      "question":{
+        "back_button": "Regresa",
+        "delete_button": "Eliminar pregunta",
+        "form": {
+          "information": {
+            "title": "Información",
+            "title_input": "Título de la pregunta",
+            "difficulty_input": "Dificultad de la pregunta",
+            "type_input": "Tipo de pregunta",
+            "type_text": "Texto",
+            "type_img": "Imagen",
+            "type_question": "Pregunta"
+          },
+          "option": {
+            "title": "Opciones",
+            "type_input": "Tipo de opciones",
+            "type_text": "Texto",
+            "type_img": "Imagen",
+            "option_number_title": "Número de opciones",
+            "option_label": "Opción",
+            "delete_image":"Eliminar imagen"
+          }
+        }
+      },
+      "question_list":{
+        "title": "Lista de preguntas",
+        "button_add": "Nueva pregunta",
+        "table":{
+          "question_title": "Título de la pregunta",
+          "question_type": "Tipo de pregunta",
+          "question": "Pregunta",
+          "question_difficulty": "Dificultad",
+          "options_type": "Tipo de opciones",
+          "type_text": "Texto",
+          "type_img": "Imagen"
+        }
+      },
+      "upload":{
+        "title": "Agregar nueva pregunta",
+        "button_reset": "Reiniciar",
+        "button_add": "Agregar pregunta",
+        "button_edit": "Modificar pregunta",
+        "form": {
+          "information": {
+            "title": "Información",
+            "question_title_label": "Título de la pregunta",
+            "question_title_text": "10 caracteres mínimo",
+            "question_title_required": "El título de la pregunta es obligatorio.",
+            "question_title_min": "El título de la pregunta debe tener al menos 10 caracteres.",
+            "question_difficulty_label": "Dificultad de la pregunta",
+            "question_difficulty_required": "Se requiere dificultad de la pregunta.",
+            "question_difficulty_min": "La dificultad de la pregunta debe ser al menos 1.",
+            "question_difficulty_max": "La dificultad de la pregunta debe ser como máximo 10.",
+            "question_type_label": "Tipo de pregunta",
+            "question_type_text": "Texto",
+            "question_type_img": "Imagen",
+            "question_type_required": "El tipo de pregunta es obligatorio.",
+            "question_text_label": "Introducir la pregunta",
+            "question_text_required": "La pregunta es obligatoria",
+            "question_img_label": "Elige imagen",
+            "question_img_required": "Se requiere la imagen"
+          },
+          "option":{
+            "title": "Opciones",
+            "option_type_label": "Tipo de opciones",
+            "option_type_text": "Texto",
+            "option_type_img": "Imagen",
+            "option_type_required": "El tipo de opciones es obligatorio",
+            "option_number_label": "Número de opciones",
+            "option_number_required": "El número de opciones es obligatorio",
+            "option_label": "Opción",
+            "option_text_required": "La respuesta es obligatoria",
+            "option_img_required": "La imagen es obligatoria",
+            "option_answer_label": "Es la respuesta",
+            "answer_required": "Al menos una de las opciones debe ser seleccionada como respuesta correcta."
+          }
+        }
+      },
+      "users": {
+        "title": "Usuarios Suscritos y Pagos",
+        "total_pay_users": "Total de Pagos Realizados",
+        "total_suscription_users": "Total de Suscripciones Activas",
+        "search-email": "Buscar por correo electrónico",
+        "table":{
+          "email": "Correo electrónico",
+          "name": "Nombre",
+          "registration-date": "Fecha de registro",
+          "role": "Rol",
+          "subscription": "Suscripción",
+          "actions": "Acciones",
+          "delete": "Eliminar"
+        }
+      },
+      "configuration": {
+        "title": "Configuración de la aplicación",
+        "stripe": {
+          "title": "Configuración de Stripe",
+          "public_key": "Clave pública de Stripe",
+          "secret_key": "Clave secreta de Stripe",
+          "update_button": "Actualizar",
+          "price_id": "ID de precio de Stripe para la suscripción"
+        },
+        "languages": {
+          "title": "Idiomas",
+          "delete_button": "Eliminar",
+          "instructions": "<h5 class='mt-4'>Agregar nuevos idiomas</h5><div><strong>Para agregar un nuevo idioma a la aplicación:</strong><ol><li>Ingrese el código y el nombre del idioma a continuación.</li><li>Después de ingresar el código y el nombre, deberá cargar manualmente el archivo JSON correspondiente a su host.</li><li>Cargue el archivo JSON en la siguiente ruta en su host: <strong>/assets/i18n/&lt;language-codegt;.json</strong> (reemplace &lt;language-code&gt; con el código en minúsculas que ingresó).</li></ol><strong>Descargar archivo JSON de ejemplo</strong><p>Puede descargar un archivo JSON de ejemplo para utilizar como plantilla para su archivo de idioma.</p></div>",
+          "language_code": "Código de idioma",
+          "language_name": "Nombre del idioma",
+          "add_language": "Agregar idioma",
+          "download_json": "Descargar ejemplo JSON"
+        }
+      }
+    }
+  },
+  "policy":{
+    "text": "<h1 class='fw-bold'>Política de Privacidad para IQ Test</h1><p>En IQ Test, accesible desde https://iqexamonline.com/, la privacidad de nuestros visitantes es una de nuestras principales prioridades. Este documento de Política de Privacidad contiene tipos de información que se recopilan y registran en IQ Test y cómo la utilizamos.</p><p>Si tienes preguntas adicionales o necesitas más información sobre nuestra Política de Privacidad, no dudes en contactarnos.</p><p>Esta Política de Privacidad se aplica únicamente a nuestras actividades en línea y es válida para los visitantes de nuestro sitio web en relación con la información que comparten y/o recopilan en IQ Test. Esta política no es aplicable a ninguna información recopilada fuera de línea o a través de canales distintos a este sitio web.</p><h2 class='fw-bold'>Consentimiento</h2><p>Al utilizar nuestro sitio web, aceptas nuestra Política de Privacidad y aceptas sus términos.</p><h2 class='fw-bold'>Información que recopilamos</h2><p>La información personal que se te solicita proporcionar, y las razones por las cuales se te solicita proporcionarla, se te harán claras en el momento en que te pidamos tu información personal.</p><p>Si nos contactas directamente, podemos recibir información adicional sobre ti, como tu nombre, dirección de correo electrónico, número de teléfono, el contenido del mensaje y/o los archivos adjuntos que nos envíes, y cualquier otra información que elijas proporcionar.</p><p>Cuando te registras para una cuenta, podemos solicitar tu información de contacto, que incluye elementos como nombre, nombre de la empresa, dirección, dirección de correo electrónico y número de teléfono.</p><h2 class='fw-bold'>Cómo utilizamos tu información</h2><p>Utilizamos la información que recopilamos de diversas maneras, incluyendo:</p><ul><li>Proporcionar, operar y mantener nuestro sitio web</li><li>Mejorar, personalizar y expandir nuestro sitio web</li><li>Entender y analizar cómo utilizas nuestro sitio web</li><li>Desarrollar nuevos productos, servicios, características y funcionalidades</li><li>Comunicarnos contigo, ya sea directamente o a través de uno de nuestros socios, incluyendo servicio al cliente, para proporcionarte actualizaciones e información relacionada con el sitio web, y para fines de marketing y promocionales</li><li>Enviarte correos electrónicos</li><li>Encontrar y prevenir fraudes</li></ul><h2 class='fw-bold'>Archivos de registro (Log Files)</h2><p>IQ Test sigue un procedimiento estándar de uso de archivos de registro. Estos archivos registran a los visitantes cuando visitan sitios web. Todas las empresas de alojamiento hacen esto y es parte de los servicios de análisis de los servicios de alojamiento. La información recopilada por los archivos de registro incluye direcciones de protocolo de Internet (IP), tipo de navegador, proveedor de servicios de Internet (ISP), sello de fecha y hora, páginas de referencia/salida y posiblemente el número de clics. Esta información no está vinculada a ninguna información que sea personalmente identificable. El propósito de la información es analizar tendencias, administrar el sitio, rastrear los movimientos de los usuarios en el sitio web y recopilar información demográfica.</p><h2 class='fw-bold'>Cookies y Web Beacons</h2><p>Al igual que cualquier otro sitio web, IQ Test utiliza 'cookies'. Estas cookies se utilizan para almacenar información, incluidas las preferencias de los visitantes, y las páginas del sitio web que el visitante accedió o visitó. La información se utiliza para optimizar la experiencia de los usuarios al personalizar el contenido de nuestras páginas web según el tipo de navegador de los visitantes y/u otra información.</p><p>Para obtener información más general sobre las cookies, lee <a href='https://www.cookieconsent.com/what-are-cookies/'>'¿Qué son las Cookies?'</a>.</p><h2 class='fw-bold'>Políticas de Privacidad de los Socios Publicitarios</h2><p>Puedes consultar esta lista para encontrar la Política de Privacidad de cada uno de los socios publicitarios de IQ Test.</p><p>Los servidores de anuncios de terceros o las redes publicitarias utilizan tecnologías como cookies, JavaScript o Web Beacons que se utilizan en sus respectivos anuncios y enlaces que aparecen en IQ Test, que se envían directamente al navegador de los usuarios. Cuando esto ocurre, reciben automáticamente tu dirección IP. Estas tecnologías se utilizan para medir la efectividad de sus campañas publicitarias y/o para personalizar el contenido publicitario que ves en los sitios web que visitas.</p><p>Ten en cuenta que IQ Test no tiene acceso ni control sobre estas cookies que son utilizadas por anunciantes de terceros.</p><h2 class='fw-bold'>Políticas de Privacidad de Terceros</h2><p>La Política de Privacidad de IQ Test no se aplica a otros anunciantes o sitios web. Por lo tanto, te recomendamos que consultes las Políticas de Privacidad respectivas de estos servidores de anuncios de terceros para obtener información más detallada. Puede incluir sus prácticas e instrucciones sobre cómo optar por no participar en ciertas opciones.</p><p>Puedes elegir deshabilitar las cookies a través de las opciones individuales de tu navegador. Para obtener información más detallada sobre la gestión de cookies con navegadores web específicos, consulta los sitios web respectivos de los navegadores.</p><h2 class='fw-bold'>Derechos de Privacidad CCPA (No Vender Mi Información Personal)</h2><p>Bajo el CCPA, entre otros derechos, los consumidores de California tienen derecho a:</p><p>Solicitar que un negocio que recopile los datos personales de un consumidor divulgue las categorías y piezas específicas de datos personales que un negocio ha recopilado sobre los consumidores.</p><p>Solicitar que un negocio elimine cualquier dato personal sobre el consumidor que un negocio haya recopilado.</p><p>Solicitar que un negocio que venda los datos personales de un consumidor, no venda los datos personales del consumidor.</p><p>Si haces una solicitud, tenemos un mes para responderte. Si deseas ejercer cualquiera de estos derechos, contáctanos.</p><h2 class='fw-bold'>Derechos de Protección de Datos GDPR</h2><p>Nos gustaría asegurarnos de que estés completamente consciente de todos tus derechos de protección de datos. Cada usuario tiene derecho a lo siguiente:</p><p>El derecho de acceso: Tienes derecho a solicitar copias de tus datos personales. Podemos cobrarte una pequeña tarifa por este servicio.</p><p>El derecho de rectificación: Tienes derecho a solicitar que corrijamos cualquier información que creas que es inexacta. También tienes derecho a solicitar que completemos la información que creas que estincompleta.</p><p>El derecho de borrado: Tienes derecho a solicitar que borraremos tus datos personales, bajo ciertas condiciones.</p><p>El derecho a restringir el procesamiento: Tienes derecho a solicitar que restrinjamos el procesamiento de tus datos personales, bajo ciertas condiciones.</p><p>El derecho a objetar el procesamiento: Tienes derecho a objetar nuestro procesamiento de tus datos personales, bajo ciertas condiciones.</p><p>El derecho a la portabilidad de datos: Tienes derecho a solicitar que transfiramos los datos que hemos recopilado a otra organización, o directamente a ti, bajo ciertas condiciones.</p><p>Si haces una solicitud, tenemos un mes para responderte. Si deseas ejercer cualquiera de estos derechos, contáctanos.</p><h2 class='fw-bold'>Información de niños</h2><p>Otra parte de nuestra prioridad es agregar protección para niños mientras usan internet. Alentamos a los padres y tutores a observar, participar y/o monitorear y guiar la actividad en línea de sus hijos.</p><p>IQ Test no recopila conscientemente ninguna Información de Identificación Personal de niños menores de 13 años. Si crees que tu hijo proporcionó este tipo de información en nuestro sitio web, te recomendamos encarecidamente que nos contactes de inmediato y haremos todo lo posible para eliminar rápidamente esa información de nuestros registros.</p>"
+  },
+  "success":{
+    "title": "¡Gracias por completar tu pago!",
+    "text": "Estamos generando tu certificado, el cual podrás descargar en breve.",
+    "qi_title": "Tu puntuación de CI es",
+    "qi_table":{
+      "table_value_1": "Deficiente",
+      "table_value_2": "Limítrofe",
+      "table_value_3": "Por debajo del promedio",
+      "table_value_4": "Promedio",
+      "table_value_5": "Por encima del promedio",
+      "table_value_6": "Dotado",
+      "table_value_7": "Muy dotado"
+    }
+  },
+  "terms":{
+    "text":"<h2><strong>Términos y condiciones</strong></h2><p>Bienvenido a IQ Test!</p><p>Estos términos y condiciones delinean las reglas y regulaciones para el uso del Sitio Web de IQ Test, ubicado en https://iqexamonline.com/.</p><p>Al acceder a este sitio web, asumimos que aceptas estos términos y condiciones. No continúes utilizando IQ Test si no estás de acuerdo en aceptar todos los términos condiciones establecidos en esta página. Nuestros términos y condiciones fueron creados con la ayuda del <a href='https://www.termsandconditionsgenerator.com'>Generador dTérminos y Condiciones</a> y el <a href='https://www.privacypolicyonline.com/terms-conditions-generator/'>Generador gratuito de Términos y Condiciones</a>.</p><p>La siguiente terminología se aplica a estos Términos y Condiciones, Declaración de Privacidad y Aviso de Descargo de Responsabilidad y todos los Acuerdos: 'Cliente''Usted' y 'Su' se refieren a usted, la persona que inicia sesión en este sitio web y cumple con los términos y condiciones de la Compañía. 'La Compañía', 'Nosotros''Nuestro' y 'Nosotros', se refiere a nuestra Compañía. 'Parte', 'Partes' o 'Nosotros', se refiere tanto al Cliente como a nosotros mismos. Todos los términos se refieren la oferta, aceptación y consideración del pago necesario para llevar a cabo el proceso de nuestra asistencia al Cliente de la manera más adecuada para el propósito expresde satisfacer las necesidades del Cliente en cuanto a la provisión de los servicios declarados de la Compañía, de acuerdo con y sujeto a la ley vigente en los PaíseBajos. Cualquier uso de la terminología anterior u otras palabras en singular, plural, capitalización y/o él/ella o ellos, se toma como intercambiable y, por lo tantocomo referente al mismo.</p><h3><strong>Cookies</strong></h3><p>Empleamos el uso de cookies. Al acceder a IQ Test, aceptas el uso de cookies de acuerdo con la Política de Privacidad de IQ Test.</p><p>La mayoría de los sitios web interactivos utilizan cookies para permitirnos recuperar los detalles del usuario para cada visita. Las cookies son utilizadas por nuestrsitio web para habilitar la funcionalidad de ciertas áreas y hacer más fácil la visita de las personas a nuestro sitio web. Algunos de nuestros socios afiliadoanunciantes también pueden usar cookies.</p><h3><strong>Licencia</strong></h3><p>A menos que se indique lo contrario, IQ Test y/o sus licenciantes poseen los derechos de propiedad intelectual de todo el material en IQ Test. Todos los derechos dpropiedad intelectual están reservados. Puedes acceder a esto desde IQ Test para tu uso personal sujeto a las restricciones establecidas en estos términos y condiciones.p><p>No debes:</p><ul><li>Republicar material de IQ Test</li><li>Vender, alquilar o sublicenciar material de IQ Test</li><li>Reproducir, duplicar o copiar material de IQ Test</li><li>Redistribuir contenido de IQ Test</li></ul><p>Este Acuerdo comenzará en la fecha de hoy.</p><p>Partes de este sitio web ofrecen la oportunidad a los usuarios de publicar e intercambiar opiniones e información en ciertas áreas del sitio web. IQ Test no filtra, edita, publica o revisa los Comentarios antes de su presencia en el sitio web. Los Comentarios no reflejan las opiniones de IQ Test, sus agentes y/o afiliados. Los Comentarios reflejan las opiniones y opiniones de la persona que publica sus puntos de vista y opiniones. En la medida en que lo permitan las leyes aplicables, IQ Test no será responsable de los Comentarios ni de cualquier responsabilidad, daño o gasto causado y/o sufrido como resultado de cualquier uso y/o publicación y/o aparición de los Comentarios en este sitio web.</p><p>IQ Test se reserva el derecho de monitorear todos los Comentarios y de eliminar cualquier Comentario que pueda considerarse inapropiado, ofensivo o que causincumplimiento de estos Términos y Condiciones.</p><p>Garantizas y declaras que:</p><ul><li>Tienes derecho a publicar los Comentarios en nuestro sitio web y tienes todas las licencias y consentimientos necesarios para hacerlo;</li><li>Los Comentarios no invaden ningún derecho de propiedad intelectual, incluidos, entre otros, el copyright, patente o marca registrada de cualquier tercero;</li><li>Los Comentarios no contienen material difamatorio, calumnioso, ofensivo, indecente o de otra manera ilegal que sea una invasión de la privacidad;</li><li>Los Comentarios no se utilizarán para solicitar o promover negocios o costumbres o actividades comerciales ilegales.</li></ul><p>Por la presente, otorgas a IQ Test una licencia no exclusiva para usar, reproducir, editar y autorizar a otros a usar, reproducir y editar cualquiera de tus Comentarioen cualquier forma y medio.</p><h3><strong>Hipervínculos a nuestro contenido</strong></h3><p>Las siguientes organizaciones pueden vincular a nuestro Sitio Web sin aprobación previa por escrito:</p><ul><li>Agencias gubernamentales;</li><li>Los motores de búsqueda;</li><li>Organizaciones de noticias;</li><li>Los distribuidores de directorios en línea pueden vincular a nuestro Sitio Web de la misma manera que hiperenlazan a los sitios web de otras empresas listadas; y</li><li>Empresas acreditadas en todo el sistema excepto organizaciones sin fines de lucro que soliciten, centros comerciales de caridad y grupos de recaudación de fondos de caridad que no pueden hiperenlazar a nuestro sitio web.</li></ul><p>Estas organizaciones pueden vincular a nuestra página de inicio, a publicaciones o a otra información del Sitio Web siempre que el enlace: (a) no sea de ninguna manera engañoso; (b) no implique falsamente patrocinio, respaldo o aprobación del partido que enlaza y sus productos y/o servicios; y (c) se ajuste dentro del contexto del sitio del partido que enlaza.</p><p>Podemos considerar y aprobar otras solicitudes de enlace de los siguientes tipos de organizaciones:</p><ul><li>Fuentes de información de consumo y/o empresariales conocidas;</li><li>Sitios de la comunidad punto com;</li><li>Asociaciones u otros grupos que representen a organizaciones benéficas;</li><li>Distribuidores de directorios en línea;</li><li>Portales de Internet;</li><li>Empresas de contabilidad, legal y consultoría; y</li><li>Instituciones educativas y asociaciones comerciales.</li></ul><p>Aprobaremos las solicitudes de enlace de estas organizaciones si decidimos que: (a) el enlace no nos haría ver desfavorablemente a nosotros mismos o a nuestras empresas acreditadas; (b) la organización no tiene registros negativos con nosotros; (c) el beneficio para nosotros de la visibilidad del hiperenlace compensa la ausencia de IQ Test; y (d) el enlace está en el contexto de la información de recursos generales.</p><p>Estas organizaciones pueden vincular a nuestra página de inicio siempre que el enlace: (a) no sea de ninguna manera engañoso; (b) no implique falsamente patrocinio, respaldo o aprobación del partido que enlaza y sus productos o servicios; y (c) se ajuste dentro del contexto del sitio del partido que enlaza.</p><p>Si eres una de las organizaciones mencionadas en el párrafo 2 anterior y estás interesado en vincularte a nuestro sitio web, debes informarnos enviando un correo electrónico a IQ Test. Incluye tu nombre, nombre de tu organización, información de contacto, así como la URL de tu sitio, una lista de cualquier URL desde la cual pretendes enlazar a nuestro Sitio Web, y una lista de las URL de nuestro sitio a las cuales te gustaría enlazar. Espera de 2 a 3 semanas para obtener una respuesta.</p><p>Las organizaciones aprobadas pueden hiperenlazar a nuestro Sitio Web de la siguiente manera:</p><ul><li>Usando nuestro nombre corporativo; o</li><li>Usando el localizador de recursos uniforme que se vincula; o</li><li>Usando cualquier otra descripción de nuestro Sitio Web que tenga sentido dentro del contexto y formato del contenido en el sitio del partido que enlaza.</li></ul><p>No se permitirá el uso del logotipo u otras obras de arte de IQ Test para el enlace sin un acuerdo de licencia de marca registrada.</p><h3><strong>iFrames</strong></h3><p>Sin la aprobación previa y permiso por escrito, no puedes crear marcos alrededor de nuestras páginas web que alteren de alguna manera la presentación visual o la apariencia de nuestro Sitio Web.</p><h3><strong>Responsabilidad del contenido</strong></h3><p>No seremos responsables de ningún contenido que aparezca en tu Sitio Web. Aceptas protegernos y defendernos contra todas las reclamaciones que surjan en tu Sitio Web. Ningún enlace debe aparecer en ningún Sitio Web que pueda interpretarse como difamatorio, obsceno o criminal, o que infrinja, viole o promueva la infracción u otra violación de los derechos de terceros.</p><h3><strong>Tu privacidad</strong></h3><p>Por favor, lee la Política de Privacidad.</p><h3><strong>Reserva de derechos</strong></h3><p>Nos reservamos el derecho de solicitar que elimines todos los enlaces o cualquier enlace en particular a nuestro Sitio Web. Aceptas eliminar inmediatamente todos los enlaces a nuestro Sitio Web a solicitud nuestra. También nos reservamos el derecho de modificar estos términos y condiciones y nuestra política de enlace en cualquier momento. Al seguir enlazando continuamente a nuestro Sitio Web, aceptas estar sujeto y seguir estos términos y condiciones de enlace.</p><h3><strong>Eliminación de enlaces de nuestro sitio web</strong></h3><p>Si encuentras algún enlace en nuestro Sitio Web que sea ofensivo por cualquier motivo, eres libre de contactarnos e informarnos en cualquier momento. Consideraremos las solicitudes para eliminar enlaces, pero no estamos obligados a hacerlo o a responderte directamente.</p><p>No garantizamos que la información en este sitio web sea correcta, no garantizamos su integridad ni exactitud; ni prometemos garantizar que el sitio web permanezca disponible o que el material en el sitio web se mantenga actualizado.</p><h3><strong>Descargo de responsabilidad</strong></h3><p>Hasta el máximo permitido por la ley aplicable, excluimos todas las representaciones, garantías y condiciones relacionadas con nuestro sitio web y el uso de este sitio web. Nada en este descargo de responsabilidad:</p><ul><li>limitará o excluirá nuestra o tu responsabilidad por muerte o lesiones personales;</li><li>limitará o excluirá nuestra o tu responsabilidad por fraude o representación fraudulenta;</li><li>limitará cualquiera de nuestras o tus responsabilidades de cualquier manera que no esté permitida por la ley aplicable; o</li><li>excluirá cualquiera de nuestras o tus responsabilidades que no puedan ser excluidas bajo la ley aplicable.</li></ul><p>Las limitaciones y prohibiciones de responsabilidad establecidas en esta Sección y en otros lugares de este descargo de responsabilidad: (a) están sujetas al párrafo anterior; y (b) regulan todas las responsabilidades que surjan bajo el descargo de responsabilidad, incluidas las responsabilidades surgidas en contrato, en agravio y por incumplimiento del deber legal.</p><p>Mientras el sitio web y la información y servicios en el sitio web se proporcionen de forma gratuita, no seremos responsables de ninguna pérdida o daño de cualquier naturaleza.</p>"
+  },
+  "test":{
+    "mode":{
+      "none":{
+        "title": "¿Listo para comenzar?",
+        "list_1": "Asegúrate de estar en un lugar tranquilo donde puedas concentrarte.",
+        "list_2": "<i class='bi bi-check-circle-fill text-success'></i> Estás a punto de resolver {{numberOfQuestions}} ejercicios visuales que aumentan gradualmente en dificultad.",
+        "list_3": "No hay límite de tiempo, pero no te distraigas durante el test.",
+        "list_4": "No uses Internet ni ninguna ayuda externa.",
+        "list_5": "Cuando estés listo, haz clic en el botón de abajo para comenzar.",
+        "list_6": "Tu resultado al final de este test te informará sobre tu coeficiente intelectual (CI).",
+        "button_start": "COMENZAR EL TEST"
+      },
+      "test": {
+        "time": "Tiempo: {{elapsedTime}} / {{duration}}",
+        "question_title": "Pregunta",
+        "question_number": "Pregunta {{testPageIndex}} de {{testPageCount}}",
+        "select_option": "Seleciona una respuesta",
+        "button_before": "Anterior",
+        "button_next": "Siguiente",
+        "button_send": "Enviar"
+      },
+      "loading": {
+        "title": "El análisis de tus respuestas está encurso, ¡tus resultados estarán listos pronto!",
+        "loading_text_1": "Síntesis analítica",
+        "loading_text_2": "Rendimiento visual",
+        "loading_text_3": "Control del tiempo y reactividad"
+      },
+      "result": {
+        "sec_1": {
+          "title": "¡El resultado de la prueba está disponible!",
+          "text": "Has completado la prueba más rápidamente que el 36% de los participantes y has demostrado un desempeño excepcional en el reconocimiento de patrones."
+        },
+        "sec_2": {
+          "title": "Resultados destacados de la prueba",
+          "time": "Tiempo de finalización:",
+          "hability": "Habilidad significativa:",
+          "hability_result": "Reconocimiento de patrones",
+          "strength": "Fortaleza dominante:",
+          "strength_result": "Capacidad de respuesta"
+        },
+        "sec_3": {
+          "title": "Recibe tu certificado"
+        },
+        "review":{
+          "country": "España",
+          "text": "<p class='fs-14 m-0 text-start'>¡Increíble experiencia! Hice el test y quedé impresionada con los  resultados. Me ayudó a comprender mejor mis habilidades cognitivas y  ahora me siento más confiada.</p><p class='fs-14 m-0 text-start'>¡Definitivamente lo recomiendo!</p>"
+        },
+        "sec_4":{
+          "title_new": "¡Aprovecha nuestra oferta especial!",
+          "title_download": "¡Descarga tu certificado!",
+          "discount": "<i class='bi bi-stopwatch-fill text-muted'></i> Esta descuento del <strong>98,75%</strong> es válido para <strong>{{ time }}</strong>",
+          "pay_%": "Pagos 100% seguros",
+          "pay_text": "Nuestro servicio de prueba de CI se ofrece de manera excepcional a un precio de prueba para una prueba de 24 horas. Al final del período de prueba y si no cancela, nuestra oferta se renovará automáticamente como una suscripción sin compromiso, al precio por mes. Para obtener más información, consulte nuestra página de precios."
+        }
+      }
+    }
+  },
+  "user":{
+    "certificates":{
+      "title": "Mis certificados",
+      "table": {
+        "th-1": "Número de serie del certificado",
+        "th-2": "Fecha",
+        "th-3": "Puntuación",
+        "th-4": "Certificado",
+        "download": "Descargar certificado"
+      }
+    }
+  },
+  "home":{
+    "header":{
+      "title": "Revela tu <span class='important-text'>brillantez con nuestro IQ test</span>",
+      "p": "Responde 30 preguntas en 20 minutos y obtén tu certificado. <br />¿Qué esperas para conocer tu IQ?",
+      "button": "Empieza ahora mismo",
+      "p_people": "Personas están realizando el test ahora mismo."
+    },
+    "how": {
+      "title": "¿Cómo está diseñado nuestro IQ test?",
+      "description": "Responde 20 preguntas de dificultad progresiva, elige la respuesta  correcta entre 6 opciones y disfruta de la libertad de saltar y regresar  a cualquier pregunta cuando quieras.",
+      "card":{
+        "card_1_title": "20 preguntas en 20 minutos",
+        "card_1_description": "Concéntrate y responde nuestras preguntas, que ponen a prueba tu memoria analítica, lógica y habilidades numéricas",
+        "card_2_title": "Resultado inmediato",
+        "card_2_description": "Nuestro algoritmo estima tu coeficiente intelectual (CI) de acuerdo con el método oficial y te brinda tus resultados, así como una escala para ayudarte a entender tu posición en relación con la población.",
+        "card_3_title": "Obtén tu certificado",
+        "card_3_description": "Obtén tu certificado e informe de rendimiento para que puedas compartirlo con tu familia y amigos."
+      }
+    },
+    "why": {
+      "title": "¿Por qué este test de IQ?",
+      "description_1": "Test IQ online te ofrece una serie completa de desafíos interesantes para medir con precisión tu inteligencia fluida.",
+      "description_2": "Haz el test en línea desde cualquier dispositivo y en cualquier momento para obtener rápidamente un informe instantáneo con comparaciones a nivel mundial, destacando eficazmente las áreas donde puedes mejorar.",
+      "button": "Realiza el test"
+    },
+    "price": {
+      "title": "Plan de suscripción y precios",
+      "description": "La suscripción diaria cuesta solo 0,50€, lo que te da acceso completo durante 24 horas. Si no cancelas, la suscripción se renovará automáticamente por un plan mensual de 39,90€.",
+      "disclaimer": "*por 24 horas, luego suscripción mensual automatica a solo 39,90€",
+      "details":{
+        "detail_1": "Conocer tu Coeficiente Intelectual",
+        "detail_2": "Realizar pruebas ilimitadas",
+        "detail_3": "Descargar tu certificado en PDF",
+        "detail_4": "Comparar tus resultados a nivel global",
+        "detail_5": "Compartir resultados en redes sociales",
+        "detail_6": "Accede desde cualquier dispositivo",
+        "detail_7": "Almacenar tus tests en tu cuenta personal"
+      },
+      "button_test": "Realiza el test",
+      "payment_method": "Métodos de pago aceptados",
+      "price_text_cent": "Acceda a todas las funciones durante 1 día de prueba",
+      "price_text_sub": "Luego suscripción mensual, automatica, a solo"
+    },
+    "review": {
+      "title": "Lo que nuestros usuarios dicen sobre su experiencia con nuestro Test de IQ",
+      "reviews":{
+        "review_1": {
+          "iq": "IQ de 130",
+          "text": "<p>¡Increíble experiencia! Hice el test y quedé impresionada con los  resultados. Me ayudó a comprender mejor mis habilidades cognitivas y  ahora me siento más confiada.</p><p>¡Definitivamente lo recomiendo!</p>",
+          "country": "España"
+        },
+        "review_2": {
+          "iq": "IQ de 140",
+          "text": "<p>¡Una herramienta fantástica! La prueba de IQ fue desafiante pero muy  gratificante. Obtener mi puntuación fue revelador y me motivó a seguir  trabajando en mi desarrollo intelectual.</p><p>¡No puedo esperar para  compartirlo con mis amigos!</p>",
+          "country": "Estados Unidos"
+        },
+        "review_3": {
+          "iq": "IQ de 125",
+          "text": "<p>¡Excelente servicio! Realicé el test y quedé muy satisfecha con la  precisión y la rapidez de los resultados</p><p>Fue una experiencia  enriquecedora que definitivamente recomendaría a cualquiera que busque  conocer más sobre su inteligencia.</p>",
+          "country": "Alemania"
+        },
+        "review_4": {
+          "iq": "IQ de 125",
+          "text": "<p>Decidí probar este test de IQ y quedé  asombrado con el resultado. Me dio una nueva perspectiva sobre mis  capacidades y me motivó a seguir desafiándome a mí mismo.</p><p>¡Definitivamente vale la pena hacerlo!</p>",
+          "country": "México"
+        }
+      }
+    },
+    "countries":{
+      "title": "Puntuaciones promedio por país",
+      "description": "Descubre cómo se clasifican los países en puntajes de IQ.",
+      "country": {
+        "it": "Italia",
+        "andorra": "Andorra",
+        "china": "China",
+        "japon": "Japon",
+        "uruguay": "Uruguay",
+        "guatemala": "Guatemala",
+        "ecuador": "Ecuador",
+        "romania": "Romania",
+        "venezuela": "Venezuela",
+        "bolivia": "Bolivia"
+
+      }
+    },
+    "popup": {
+      "message": "Hace apenas <span id='popup-minutes'>{{minutes}}</span> minuto, <strong><span id='popup-name'>{{name}}</span></strong> desde <strong><span id='popup-city'>{{city}}</span></strong> completó con éxito su prueba y obtuvo su certificado de IQ."
+    }
+  },
+  "login":{
+    "title": "Accede a tu cuenta"
+  },
+  "modal":{
+    "timeup.modal.title": "Tiempo agotado",
+    "timeup.modal.body1": "No has respondido a todas las preguntas a tiempo.",
+    "timeup.modal.body2": "Por favor, inténtalo de nuevo. Asegúrate de responder a todas las preguntas dentro del tiempo asignado.",
+    "timeup.modal.close": "Cerrar",
+    "timeup.modal.retry": "Reintentar"
+  },
+  "what-is-iq":{
+    "content": "<div class='section-header d-flex flex-column justify-content-center align-items-center col-12 my-3'><h3 class='text-center section-title col-12 fw-bold fs-2'>¿Qué es el coeficiente intelectual (IQ)?</h3></div><img class='scale-img my-2 img-fluid' src='https://d2bmj4el5t1r3x.cloudfront.net/755832da-4beb-4f69-8b32-f51b47ca0bb0/img/ui/einstein.png' alt=''><p class='fw-light'>El término 'Cociente Intelectual' o CI, suele surgir en conversaciones sobre capacidad mental, potencial académico y éxito en la vida. Pero, ¿qué es exactamente el CI? ¿Es simplemente una medida de cuán inteligentes somos, o hay más en ello?</p><p class='fw-light'>En esencia, el CI es una puntuación numérica derivada de diversas pruebas estandarizadas diseñadas para evaluar la inteligencia humana. Acuñado por el psicólogo alemán William Stern a principios del siglo XX, el concepto se ha convertido en un factor significativo en una amplia gama de campos, desde la psicología y la educación hasta la contratación de personal.</p><p class='fw-light'>Comprender el CI no se trata solo de conocer tu puntuación. Se trata de explorar las fascinantes formas en que nuestras mentes funcionan, cómo nos diferenciamos en nuestras habilidades cognitivas y cómo estas diferencias pueden afectar varios aspectos de nuestras vidas. En este artículo, profundizaremos en el origen del CI, cómo se mide, los registros notables de CI y más.</p><div class='section-header d-flex flex-column justify-content-center align-items-center col-12 my-3'><h3 class='text-center section-title col-12 fw-bold fs-2'>Historia del CI y comprensión de la inteligencia</h3></div><p class='fw-light'>El concepto de CI comenzó con el psicólogo francés Alfred Binet a principios del siglo XX, quien recibió la tarea del gobierno francés de identificar a los estudiantes que necesitaban apoyo educativo adicional. La prueba de Binet medía la edad mental de un estudiante en comparación con su edad cronológica, sentando las bases para las pruebas de CI.</p><p class='fw-light'>El término ‘Cociente Intelectual‘ fue acuñado por el psicólogo alemán William Stern e inicialmente calculado como la relación de la edad mental a la edad cronológica, multiplicada por 100. Sin embargo, este método no se ajustaba bien a los adultos, lo que condujo a pruebas de CI modernas como el Stanford-Binet y la Escala de Inteligencia del Adulto de Wechsler, diseñadas para todas las edades.</p><p class='fw-light'>Comprender el cociente intelectual requiere comprender la ‘inteligencia‘, ampliamente definida como la capacidad de aprender, razonar y resolver problemas. Se trata de entender ideas complejas, adaptarse de manera efectiva al entorno y aprender de la experiencia. La inteligencia abarca una amplia gama de capacidades, no solo habilidades académicas o cognitivas.</p><p class='fw-light'>Las pruebas de CI en la actualidad intentan medir la capacidad de una persona para el razonamiento lógico, la resolución de problemas y el pensamiento rápido, proporcionando una ‘instantánea‘ de la capacidad cognitiva de una persona.</p><div class='section-header d-flex flex-column justify-content-center align-items-center col-12 my-3'><h3 class='text-center section-title col-12 fw-bold fs-2'>¿Cómo se mide el CI?</h3></div><img class='scale-img my-2 img-fluid' src='https://d2bmj4el5t1r3x.cloudfront.net/755832da-4beb-4f69-8b32-f51b47ca0bb0/img/ui/graph-iq.png' alt=''><p class='fw-light'>El cociente intelectual se mide utilizando pruebas estandarizadas diseñadas para evaluar la inteligencia humana. Dos de las más comunes son la Escala de Inteligencia Stanford-Binet y la Escala de Inteligencia del Adulto de Wechsler.</p><p class='fw-light'>La prueba de Stanford-Binet, una evolución de la prueba original de Alfred Binet, mide cinco factores de habilidad cognitiva: conocimiento, razonamiento cuantitativo, procesamiento visoespacial, memoria de trabajo y razonamiento fluido. Genera una puntuación de CI al comparar el rendimiento del examinado con el de otras personas en el mismo grupo de edad.</p><p class='fw-light'>La Escala de Inteligencia para Adultos de Wechsler, por otro lado, evalúa comprensión verbal, razonamiento perceptual, memoria de trabajo y velocidad de procesamiento. También compara el rendimiento del examinado con normas específicas por edad.</p><p class='fw-light'>En ambas pruebas, las puntuaciones están diseñadas para caer en una distribución normal, o una ‘curva de campana‘. La puntuación promedio se establece en 100, y aproximadamente el 68% de todas las puntuaciones caen dentro de una desviación estándar (15 puntos) de la media. Esto significa que se espera que la mayoría de las puntuaciones de CI de las personas se encuentren entre 85 y 115. Las puntuaciones por encima de 130 se consideran en el rango ‘Muy Superior‘, y aquellas por debajo de 70 en el rango ‘Muy Bajo‘.</p><p class='fw-light'>Estas pruebas proporcionan un método estándar y consistente para evaluar las capacidades cognitivas de una persona, aunque ciertamente no capturan todos los aspectos de la inteligencia humana.</p><div class='section-header d-flex flex-column justify-content-center align-items-center col-12 my-3'><h3 class='text-center section-title col-12 fw-bold fs-2'>Registros y Extremos del CI</h3></div><div class='section-header d-flex flex-column justify-content-center align-items-center col-12'><h5 class='text-center col-12 fw-bold fs-4'>Puntuación de CI más alta registrada</h5></div><img class='scale-img my-2 img-fluid' src='https://d2bmj4el5t1r3x.cloudfront.net/755832da-4beb-4f69-8b32-f51b47ca0bb0/img/ui/pic1.png' alt=''><p class='fw-light'>William James Sidis, un prodigio infantil estadounidense, se dice que tenía una puntuación de CI entre 250-300, pero esta cifra es en gran medida especulativa ya que se le sometió a pruebas utilizando métodos diferentes y no escalas modernas. Podía leer el New York Times a los 18 meses y aprendió latín y griego por sí mismo a los 5 años.</p><div class='section-header d-flex flex-column justify-content-center align-items-center col-12'><h5 class='text-center col-12 fw-bold fs-4'>Puntuación de CI más alta confirmada</h5></div><img class='scale-img my-2 img-fluid' src='https://d2bmj4el5t1r3x.cloudfront.net/755832da-4beb-4f69-8b32-f51b47ca0bb0/img/ui/pic2.png' alt=''><p class='fw-light'>Según el Libro Guinness de los Récords, el CI más alto jamás probado es de 228 de Marilyn vos Savant, una autora, conferencista y dramaturga estadounidense.</p><div class='section-header d-flex flex-column justify-content-center align-items-center col-12'><h5 class='text-center col-12 fw-bold fs-4'>Uno de los CI más altos en la infancia</h5></div><img class='scale-img my-2 img-fluid' src='https://d2bmj4el5t1r3x.cloudfront.net/755832da-4beb-4f69-8b32-f51b47ca0bb0/img/ui/pic3.png' alt=''><p class='fw-light'>Según se informa, Kim Ung-yong obtuvo una puntuación de 210 en un test de coeficiente intelectual a los 4 años, aunque este test no se basó en normas estándar de evaluación del coeficiente intelectual. Nacido en Corea del Sur, Kim es conocido por su habilidad en varios idiomas y sus avanzadas habilidades matemáticas en su infancia. A pesar de su alto coeficiente intelectual, Kim a menudo habla sobre la importancia de la felicidad por encima de la inteligencia.</p>",
+    "title": "¿Listo para desafiar al más grande de todos?",
+    "people": {
+      "title": "Compara tu IQ con el de las celebridades",
+      "people_1": "Bill Gates, cofundador de Microsoft, influyente filántropo, visionario de la tecnología, uno de los hombres más ricos del mundo.",
+      "people_2": "Will Smith, actor americano, conocido por 'Hombres de Negro', 'Día de la Independencia' y 'El Príncipe de Bel-Air'.",
+      "people_3": "Madonna, cantante americana, ícono pop, innovadora, reina de la música, influyente desde los años '80.",
+      "people_4": "Tom Cruise, actor americano, conocido por 'Top Gun' y 'Misión Imposible', carismático y talentoso."
+    }
+  },
+  "email": {
+    "emailSubject": "Tu CI certificado | IQ Exam Online",
+    "emailText": "Estimado/a {{ name }},\n\n¡Felicidades por tu logro! Adjunto se encuentra tu certificado.\n\nSaludos cordiales,\nExamen de CI Online",
+    "htmlBody": "<table style='width: 100%; background: #7a9abe; padding: 30px 50px;'><tr><td align='center'><table><tr><td align='center'><a href='https://iqexamonline.com'><img src='https://firebasestorage.googleapis.com/v0/b/testiq-abc9f.appspot.com/o/TestIqOnlineWhite.png?alt=media&token=0544be48-351c-4a2c-a740-e8b786b40a87'></a></td></tr><tr><td><h1 style='color: #fff; text-align: center; font-size: 40px'>¡Felicidades {{name}} 🎉!</h1></td></tr><tr><td align='center'><p style='color: #fff; text-align: center; font-size: 18px; margin-bottom: 100px; width: 100%; max-width: 600px;'>Nos complace informarte que tu puntuación ha sido procesada con éxito. Adjuntoencontrarás tu certificado de IQ basado en el test que completaste en nuestra página.</p></td></tr><tr><td align='center'><p style='color: #fff; text-align: end; width:70%; font-size: 14px'>El team de <strong>IQExamOnline</strong></p></td></tr></table></td></tr></table>"
+  }
+}
