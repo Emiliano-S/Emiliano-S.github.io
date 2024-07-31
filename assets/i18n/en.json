@@ -230,7 +230,7 @@
         "select_option": "Select an answer",
         "button_before": "Previous",
         "button_next": "Next",
-        "button_send": "Submit"
+        "button_send": "Submit test"
       },
       "loading": {
         "title": "Your answers are being analyzed, your results will be ready soon!",
@@ -256,7 +256,9 @@
         },
         "review": {
           "country": "Spain",
-          "text": "<p class='fs-14 m-0 text-start'>Amazing experience! I took the test and was impressed with the results. It helped me better understand my cognitive abilities and now I feel more confident.</p><p class='fs-14 m-0 text-start'>I definitely recommend it!</p>"
+          "text": "<p class='fs-14 m-0 text-start'>Amazing experience! I took the test and was impressed with the results. It helped me better understand my cognitive abilities and now I feel more confident.</p><p class='fs-14 m-0 text-start'>I definitely recommend it!</p>",
+          "show-more": "Show more",
+          "show-less": "Show less"
         },
         "sec_4": {
           "title_new": "Take advantage of our special offer!",
@@ -283,7 +285,7 @@
   "home": {
     "header": {
       "title": "Reveal your <span class='important-text'>brilliance with our IQ test</span>",
-      "p": "Answer 30 questions in 20 minutes and get your certificate. <br />What are you waiting for to know your IQ?",
+      "p": "Answer 20 questions in 20 minutes and get your certificate. <br />What are you waiting for to know your IQ?",
       "button": "Start now",
       "p_people": "People are taking the test right now."
     },

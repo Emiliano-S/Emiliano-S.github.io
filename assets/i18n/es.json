@@ -230,7 +230,7 @@
         "select_option": "Seleciona una respuesta",
         "button_before": "Anterior",
         "button_next": "Siguiente",
-        "button_send": "Enviar"
+        "button_send": "Enviar test"
       },
       "loading": {
         "title": "El análisis de tus respuestas está encurso, ¡tus resultados estarán listos pronto!",
@@ -256,7 +256,9 @@
         },
         "review":{
           "country": "España",
-          "text": "<p class='fs-14 m-0 text-start'>¡Increíble experiencia! Hice el test y quedé impresionada con los  resultados. Me ayudó a comprender mejor mis habilidades cognitivas y  ahora me siento más confiada.</p><p class='fs-14 m-0 text-start'>¡Definitivamente lo recomiendo!</p>"
+          "text": "<p class='fs-14 m-0 text-start'>¡Increíble experiencia! Hice el test y quedé impresionada con los  resultados. Me ayudó a comprender mejor mis habilidades cognitivas y  ahora me siento más confiada.</p><p class='fs-14 m-0 text-start'>¡Definitivamente lo recomiendo!</p>",
+          "show-more": "Ver más",
+          "show-less": "Mostrar menos"
         },
         "sec_4":{
           "title_new": "¡Aprovecha nuestra oferta especial!",
@@ -283,7 +285,7 @@
   "home":{
     "header":{
       "title": "Revela tu <span class='important-text'>brillantez con nuestro IQ test</span>",
-      "p": "Responde 30 preguntas en 20 minutos y obtén tu certificado. <br />¿Qué esperas para conocer tu IQ?",
+      "p": "Responde 20 preguntas en 20 minutos y obtén tu certificado. <br />¿Qué esperas para conocer tu IQ?",
       "button": "Empieza ahora mismo",
       "p_people": "Personas están realizando el test ahora mismo."
     },
