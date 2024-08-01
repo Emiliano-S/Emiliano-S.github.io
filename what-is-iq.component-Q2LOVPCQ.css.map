@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/pages/what-is-iq/what-is-iq.component.scss"],
-  "sourcesContent": [".what-button-sec{\n  background-color: #3569a5;\n  border-radius: 20px;\n  -webkit-border-radius: 20px;\n  -moz-border-radius: 20px;\n  -ms-border-radius: 20px;\n  -o-border-radius: 20px;\n}\n.btn-custom-white{\n  background-color: #fff;\n  color: #3569a5;\n}\n\n\n.celeb-card-container{\n  .celeb-card-iq{\n    background-color: #3569a5;\n    color: #fff;\n  }\n  .celeb-card-img{\n    .img-fluid{\n      border-radius: 10px 10px 0px 0px;\n      -webkit-border-radius: 10px 10px 0px 0px;\n      -moz-border-radius: 10px 10px 0px 0px;\n      -ms-border-radius: 10px 10px 0px 0px;\n      -o-border-radius: 10px 10px 0px 0px;\n}\n  }\n\n  border-radius: 20px;\n  -webkit-border-radius: 20px;\n  -moz-border-radius: 20px;\n  -ms-border-radius: 20px;\n  -o-border-radius: 20px;\n}\n"],
-  "mappings": "AAAA,CAAA,gBACE,iBAAA,QADF,cAEE,KACA,sBAAA,KACA,mBAAA,KACA,kBAAA,KACA,iBAAA,KAEF,CAAA,iBACE,iBAAA,KACA,MAAA,QAIF,CAAA,qBAdA,cA6BE,KACA,sBAAA,KACA,mBAAA,KACA,kBAAA,KACA,iBAAA,KAlBA,CADF,qBACE,CAAA,cACE,iBAAA,QACA,MAAA,KAGA,CANJ,qBAMI,CAAA,eAAA,CAAA,UApBJ,cAqBM,KAAA,KAAA,EAAA,EACA,sBAAA,KAAA,KAAA,IAAA,IACA,mBAAA,KAAA,KAAA,IAAA,IACA,kBAAA,KAAA,KAAA,IAAA,IACA,iBAAA,KAAA,KAAA,IAAA",
-  "names": []
-}

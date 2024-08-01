@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/pages/home/home.component.scss"],
-  "sourcesContent": [".green-dot {\n  position: relative;\n  background-color: #23a854;\n  width: 15px;\n  height: 15px;\n  border-radius: 50%;\n}\n\n.green-dot::after {\n  content: '';\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  width: 100%;\n  height: 100%;\n  background-color: #23a854;\n  border-radius: 50%;\n  transform: translate(-50%, -50%);\n  animation: ping 1.5s infinite ease-out;\n  opacity: 0;\n}\n\n@keyframes ping {\n  0% {\n    transform: translate(-50%, -50%) scale(1);\n    opacity: 1;\n  }\n  75% {\n    transform: translate(-50%, -50%) scale(2);\n    opacity: 0;\n  }\n  100% {\n    transform: translate(-50%, -50%) scale(2);\n    opacity: 0;\n  }\n}\n"],
-  "mappings": "AAAA,CAAA,UACE,SAAA,SACA,iBAAA,QACA,MAAA,KACA,OAAA,KAJF,cAKE,IAGF,CARA,SAQA,OACE,QAAA,GACA,SAAA,SACA,IAAA,IACA,KAAA,IACA,MAAA,KACA,OAAA,KACA,iBAAA,QAfF,cAgBE,IACA,UAAA,UAAA,IAAA,CAAA,MACA,UAAA,KAAA,KAAA,SAAA,SACA,QAAA,EAGF,WAJE,KAKA,GACE,UAAA,UAAA,IAAA,CAAA,MAAA,MAAA,GACA,QAAA,EAEF,IACE,UAAA,UAAA,IAAA,CAAA,MAAA,MAAA,GACA,QAAA,EAEF,GACE,UAAA,UAAA,IAAA,CAAA,MAAA,MAAA,GACA,QAAA",
-  "names": []
-}

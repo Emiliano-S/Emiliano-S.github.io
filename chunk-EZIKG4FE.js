@@ -1,0 +1,1 @@
+import{a as n}from"./chunk-N7PURR2D.js";import{Jb as r,M as i,S as e}from"./chunk-QE4JIREK.js";import"./chunk-YT5AF7SN.js";import"./chunk-HFBR4SKI.js";var s=[{path:"",component:n}],u=(()=>{let t=class t{};t.\u0275fac=function(m){return new(m||t)},t.\u0275mod=e({type:t}),t.\u0275inj=i({imports:[r.forChild(s),r]});let o=t;return o})();export{u as PolicyModule};

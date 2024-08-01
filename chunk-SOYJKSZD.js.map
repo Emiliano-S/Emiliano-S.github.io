@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/pages/policy/policy.module.ts"],
-  "sourcesContent": ["import { NgModule } from '@angular/core';\nimport { RouterModule, Routes } from '@angular/router';\nimport { PolicyComponent } from './policy.component';\n\nconst routes: Routes = [\n  { path: '', component: PolicyComponent }\n];\n\n@NgModule({\n  imports: [RouterModule.forChild(routes)],\n  exports: [RouterModule]\n})\nexport class PolicyModule { }\n"],
-  "mappings": "uJAIA,IAAMA,EAAiB,CACrB,CAAEC,KAAM,GAAIC,UAAWC,CAAe,CAAE,EAO7BC,GAAY,IAAA,CAAnB,IAAOA,EAAP,MAAOA,CAAY,yCAAZA,EAAY,sBAAZA,CAAY,CAAA,0BAHbC,EAAaC,SAASN,CAAM,EAC5BK,CAAY,CAAA,CAAA,EAElB,IAAOD,EAAPG,SAAOH,CAAY,GAAA",
-  "names": ["routes", "path", "component", "PolicyComponent", "PolicyModule", "RouterModule", "forChild", "_PolicyModule"]
-}

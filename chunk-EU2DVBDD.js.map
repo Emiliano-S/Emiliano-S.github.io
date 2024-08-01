@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/pages/what-is-iq/what-is-iq.module.ts"],
-  "sourcesContent": ["import { NgModule } from '@angular/core';\nimport { RouterModule, Routes } from '@angular/router';\nimport { WhatIsIqComponent } from './what-is-iq.component';\n\nconst routes: Routes = [\n  { path: '', component: WhatIsIqComponent }\n];\n\n@NgModule({\n  imports: [RouterModule.forChild(routes)],\n  exports: [RouterModule]\n})\nexport class WhatIsIqModule { }\n"],
-  "mappings": "uJAIA,IAAMA,EAAiB,CACrB,CAAEC,KAAM,GAAIC,UAAWC,CAAiB,CAAE,EAO/BC,GAAc,IAAA,CAArB,IAAOA,EAAP,MAAOA,CAAc,yCAAdA,EAAc,sBAAdA,CAAc,CAAA,0BAHfC,EAAaC,SAASN,CAAM,EAC5BK,CAAY,CAAA,CAAA,EAElB,IAAOD,EAAPG,SAAOH,CAAc,GAAA",
-  "names": ["routes", "path", "component", "WhatIsIqComponent", "WhatIsIqModule", "RouterModule", "forChild", "_WhatIsIqModule"]
-}

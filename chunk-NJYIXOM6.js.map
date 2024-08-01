@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/pages/price/price.module.ts"],
-  "sourcesContent": ["import { NgModule } from '@angular/core';\nimport { RouterModule, Routes } from '@angular/router';\nimport { PriceComponent } from './price.component';\n\nconst routes: Routes = [\n  { path: '', component: PriceComponent }\n];\n\n@NgModule({\n  imports: [RouterModule.forChild(routes)],\n  exports: [RouterModule]\n})\nexport class PriceModule { }\n"],
-  "mappings": "uQAIA,IAAMA,EAAiB,CACrB,CAAEC,KAAM,GAAIC,UAAWC,CAAc,CAAE,EAO5BC,GAAW,IAAA,CAAlB,IAAOA,EAAP,MAAOA,CAAW,yCAAXA,EAAW,sBAAXA,CAAW,CAAA,0BAHZC,EAAaC,SAASN,CAAM,EAC5BK,CAAY,CAAA,CAAA,EAElB,IAAOD,EAAPG,SAAOH,CAAW,GAAA",
-  "names": ["routes", "path", "component", "PriceComponent", "PriceModule", "RouterModule", "forChild", "_PriceModule"]
-}

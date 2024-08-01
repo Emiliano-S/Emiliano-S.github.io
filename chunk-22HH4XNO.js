@@ -1,2 +1,0 @@
-import{Aa as r,Mb as c,R as n,cb as s,db as a,ea as o,pa as p}from"./chunk-DZ73TETG.js";var y=(()=>{let e=class e{};e.\u0275fac=function(t){return new(t||e)},e.\u0275cmp=n({type:e,selectors:[["app-policy"]],decls:2,vars:3,consts:[[1,"container","mt-2",3,"innerHTML"]],template:function(t,l){t&1&&(r(0,"div",0),s(1,"translate")),t&2&&p("innerHTML",a(1,1,"policy.text"),o)},dependencies:[c]});let i=e;return i})();export{y as a};
-//# sourceMappingURL=chunk-22HH4XNO.js.map

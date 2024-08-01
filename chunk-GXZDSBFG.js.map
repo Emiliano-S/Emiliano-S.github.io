@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/components/unsubscribe/unsubscribe.module.ts"],
-  "sourcesContent": ["import { NgModule } from '@angular/core';\nimport { RouterModule, Routes } from '@angular/router';\nimport { UnsubscribeComponent } from './unsubscribe.component';\n\n\nconst routes: Routes = [\n  { path: '', component: UnsubscribeComponent }\n];\n\n@NgModule({\n  imports: [RouterModule.forChild(routes)],\n  exports: [RouterModule]\n})\nexport class UnsubscribeModule { }\n"],
-  "mappings": "mSAKA,IAAMA,EAAiB,CACrB,CAAEC,KAAM,GAAIC,UAAWC,CAAoB,CAAE,EAOlCC,GAAiB,IAAA,CAAxB,IAAOA,EAAP,MAAOA,CAAiB,yCAAjBA,EAAiB,sBAAjBA,CAAiB,CAAA,0BAHlBC,EAAaC,SAASN,CAAM,EAC5BK,CAAY,CAAA,CAAA,EAElB,IAAOD,EAAPG,SAAOH,CAAiB,GAAA",
-  "names": ["routes", "path", "component", "UnsubscribeComponent", "UnsubscribeModule", "RouterModule", "forChild", "_UnsubscribeModule"]
-}

@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/pages/admin/question/question.module.ts"],
-  "sourcesContent": ["import { NgModule } from '@angular/core';\nimport { RouterModule, Routes } from '@angular/router';\nimport { QuestionsComponent } from './questions/questions.component';\nimport { UploadComponent } from './upload/upload.component';\nimport { QuestionComponent } from './question/question.component';\n\nconst routes: Routes = [\n  { path: '', redirectTo: 'list', pathMatch: 'full' },\n  { path: 'list', component: QuestionsComponent, data: { breadcrumb: 'List' } },\n  { path: 'upload', component: UploadComponent, data: { breadcrumb: 'Upload' } },\n  { path: ':id', component: QuestionComponent, data: { breadcrumb: 'Edit question' } }\n];\n\n@NgModule({\n  imports: [RouterModule.forChild(routes)],\n  exports: [RouterModule]\n})\nexport class QuestionModule { }\n"],
-  "mappings": "oWAMA,IAAMA,EAAiB,CACrB,CAAEC,KAAM,GAAIC,WAAY,OAAQC,UAAW,MAAM,EACjD,CAAEF,KAAM,OAAQG,UAAWC,EAAoBC,KAAM,CAAEC,WAAY,MAAM,CAAE,EAC3E,CAAEN,KAAM,SAAUG,UAAWI,EAAiBF,KAAM,CAAEC,WAAY,QAAQ,CAAE,EAC5E,CAAEN,KAAM,MAAOG,UAAWK,EAAmBH,KAAM,CAAEC,WAAY,eAAe,CAAE,CAAE,EAOzEG,GAAc,IAAA,CAArB,IAAOA,EAAP,MAAOA,CAAc,yCAAdA,EAAc,sBAAdA,CAAc,CAAA,0BAHfC,EAAaC,SAASZ,CAAM,EAC5BW,CAAY,CAAA,CAAA,EAElB,IAAOD,EAAPG,SAAOH,CAAc,GAAA",
-  "names": ["routes", "path", "redirectTo", "pathMatch", "component", "QuestionsComponent", "data", "breadcrumb", "UploadComponent", "QuestionComponent", "QuestionModule", "RouterModule", "forChild", "_QuestionModule"]
-}

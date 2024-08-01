@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/pages/admin/users/users.component.scss"],
-  "sourcesContent": [".table {\n  width: 100%;\n}\n.btn-danger {\n  margin-top: 5px;\n}\n\ntd{\n  text-align:  center;\n  vertical-align: middle;\n}\n\n@media only screen and (max-width: 600px) {\n  .td-custom{\n    max-width: 0;\n    text-overflow: ellipsis;\n    overflow: hidden;\n    min-width: 110px;\n    height: 1.2em;\n    white-space: nowrap;\n  }\n}\n"],
-  "mappings": "AAAA,CAAA,MACE,MAAA,KAEF,CAAA,WACE,WAAA,IAGF,GACE,WAAA,OACA,eAAA,OAGF,OAAA,KAAA,OAAA,IAAA,CAAA,SAAA,EAAA,OACE,CAAA,UACE,UAAA,EACA,cAAA,SACA,SAAA,OACA,UAAA,MACA,OAAA,MACA,YAAA",
-  "names": []
-}

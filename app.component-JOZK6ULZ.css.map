@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/app.component.scss"],
-  "sourcesContent": [".loading-screen {\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background-color: rgba(255, 255, 255, 0.8);\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  z-index: 1000; /* Assicurati che sia sopra altri contenuti */\n}\n"],
-  "mappings": "AAAA,CAAA,eACE,SAAA,MACA,IAAA,EACA,KAAA,EACA,MAAA,KACA,OAAA,KACA,iBAAA,MACA,QAAA,KACA,gBAAA,OACA,YAAA,OACA,QAAA",
-  "names": []
-}
