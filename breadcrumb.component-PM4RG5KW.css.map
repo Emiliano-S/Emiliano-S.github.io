@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/components/breadcrumb/breadcrumb.component.scss"],
+  "sourcesContent": [".breadcrumb-item{\n  a{\n    color: #7d859e !important;\n    text-decoration: none;\n  }\n}\n"],
+  "mappings": "AACE,CAAA,gBAAA,EACE,MAAA,kBACA,gBAAA",
+  "names": []
+}

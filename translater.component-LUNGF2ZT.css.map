@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/components/translater/translater.component.scss"],
+  "sourcesContent": [".flag-icon{\n  width: 26px;\n  height: auto;\n}\n"],
+  "mappings": "AAAA,CAAA,UACE,MAAA,KACA,OAAA",
+  "names": []
+}

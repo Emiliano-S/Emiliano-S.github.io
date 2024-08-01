@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/pages/user/user.module.ts"],
+  "sourcesContent": ["import { NgModule } from '@angular/core';\nimport { RouterModule, Routes } from '@angular/router';\nimport { CertificatesComponent } from './certificates/certificates.component';\n\nconst routes: Routes = [\n  { path: 'certificates', component: CertificatesComponent, data: { breadcrumb: 'Certificates' } }\n];\n\n@NgModule({\n  imports: [RouterModule.forChild(routes)],\n  exports: [RouterModule]\n})\nexport class UserModule { }\n"],
+  "mappings": "2VAIA,IAAMA,EAAiB,CACrB,CAAEC,KAAM,eAAgBC,UAAWC,EAAuBC,KAAM,CAAEC,WAAY,cAAc,CAAE,CAAE,EAOrFC,GAAU,IAAA,CAAjB,IAAOA,EAAP,MAAOA,CAAU,yCAAVA,EAAU,sBAAVA,CAAU,CAAA,0BAHXC,EAAaC,SAASR,CAAM,EAC5BO,CAAY,CAAA,CAAA,EAElB,IAAOD,EAAPG,SAAOH,CAAU,GAAA",
+  "names": ["routes", "path", "component", "CertificatesComponent", "data", "breadcrumb", "UserModule", "RouterModule", "forChild", "_UserModule"]
+}

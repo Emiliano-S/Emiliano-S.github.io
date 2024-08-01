@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/pages/policy/policy.component.ts", "src/app/pages/policy/policy.component.html"],
+  "sourcesContent": ["import { Component } from '@angular/core';\n\n@Component({\n  selector: 'app-policy',\n  templateUrl: './policy.component.html',\n  styleUrl: './policy.component.scss'\n})\nexport class PolicyComponent {\n\n}\n", "<div class='container mt-2'[innerHTML]=\"'policy.text' | translate\">\n</div>\n"],
+  "mappings": "wFAOA,IAAaA,GAAe,IAAA,CAAtB,IAAOA,EAAP,MAAOA,CAAe,yCAAfA,EAAe,sBAAfA,EAAeC,UAAA,CAAA,CAAA,YAAA,CAAA,EAAAC,MAAA,EAAAC,KAAA,EAAAC,OAAA,CAAA,CAAA,EAAA,YAAA,OAAA,EAAA,WAAA,CAAA,EAAAC,SAAA,SAAAC,EAAAC,EAAA,CAAAD,EAAA,ICP5BE,EAAA,EAAA,MAAA,CAAA,yBAA2BC,EAAA,YAAAC,EAAA,EAAA,EAAA,aAAA,EAAAC,CAAA,sBDOrB,IAAOX,EAAPY,SAAOZ,CAAe,GAAA",
+  "names": ["PolicyComponent", "selectors", "decls", "vars", "consts", "template", "rf", "ctx", "\u0275\u0275element", "\u0275\u0275property", "\u0275\u0275pipeBind1", "\u0275\u0275sanitizeHtml", "_PolicyComponent"]
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/pages/admin/configuration/configuration.module.ts"],
+  "sourcesContent": ["import { NgModule } from '@angular/core';\nimport { RouterModule, Routes } from '@angular/router';\nimport { ConfigurationComponent } from './configuration.component';\n\n\nconst routes: Routes = [\n  { path: '', component: ConfigurationComponent, data: { breadcrumb: 'App configuration' } }\n];\n\n@NgModule({\n  imports: [RouterModule.forChild(routes)],\n  exports: [RouterModule]\n})\nexport class ConfigurationModule { }\n"],
+  "mappings": "+TAKA,IAAMA,EAAiB,CACrB,CAAEC,KAAM,GAAIC,UAAWC,EAAwBC,KAAM,CAAEC,WAAY,mBAAmB,CAAE,CAAE,EAO/EC,GAAmB,IAAA,CAA1B,IAAOA,EAAP,MAAOA,CAAmB,yCAAnBA,EAAmB,sBAAnBA,CAAmB,CAAA,0BAHpBC,EAAaC,SAASR,CAAM,EAC5BO,CAAY,CAAA,CAAA,EAElB,IAAOD,EAAPG,SAAOH,CAAmB,GAAA",
+  "names": ["routes", "path", "component", "ConfigurationComponent", "data", "breadcrumb", "ConfigurationModule", "RouterModule", "forChild", "_ConfigurationModule"]
+}

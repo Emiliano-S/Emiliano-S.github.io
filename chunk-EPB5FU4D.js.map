@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/pages/admin/users/users.module.ts"],
+  "sourcesContent": ["import { NgModule } from '@angular/core';\nimport { RouterModule, Routes } from '@angular/router';\nimport { UsersComponent } from './users.component';\n\n\nconst routes: Routes = [\n  { path: '', component: UsersComponent, data: { breadcrumb: 'Admin Users' } }\n];\n\n@NgModule({\n  imports: [RouterModule.forChild(routes)],\n  exports: [RouterModule]\n})\nexport class UsersModule { }\n"],
+  "mappings": "2VAKA,IAAMA,EAAiB,CACrB,CAAEC,KAAM,GAAIC,UAAWC,EAAgBC,KAAM,CAAEC,WAAY,aAAa,CAAE,CAAE,EAOjEC,GAAW,IAAA,CAAlB,IAAOA,EAAP,MAAOA,CAAW,yCAAXA,EAAW,sBAAXA,CAAW,CAAA,0BAHZC,EAAaC,SAASR,CAAM,EAC5BO,CAAY,CAAA,CAAA,EAElB,IAAOD,EAAPG,SAAOH,CAAW,GAAA",
+  "names": ["routes", "path", "component", "UsersComponent", "data", "breadcrumb", "UsersModule", "RouterModule", "forChild", "_UsersModule"]
+}

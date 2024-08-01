@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/pages/terms/terms.component.ts", "src/app/pages/terms/terms.component.html"],
+  "sourcesContent": ["import { Component } from '@angular/core';\n\n@Component({\n  selector: 'app-terms',\n  templateUrl: './terms.component.html',\n  styleUrl: './terms.component.scss'\n})\nexport class TermsComponent {\n\n}\n", "<div class='container mt-1' [innerHTML]=\"'terms.text' | translate\">\n\n</div>\n"],
+  "mappings": "wFAOA,IAAaA,GAAc,IAAA,CAArB,IAAOA,EAAP,MAAOA,CAAc,yCAAdA,EAAc,sBAAdA,EAAcC,UAAA,CAAA,CAAA,WAAA,CAAA,EAAAC,MAAA,EAAAC,KAAA,EAAAC,OAAA,CAAA,CAAA,EAAA,YAAA,OAAA,EAAA,WAAA,CAAA,EAAAC,SAAA,SAAAC,EAAAC,EAAA,CAAAD,EAAA,ICP3BE,EAAA,EAAA,MAAA,CAAA,yBAA4BC,EAAA,YAAAC,EAAA,EAAA,EAAA,YAAA,EAAAC,CAAA,sBDOtB,IAAOX,EAAPY,SAAOZ,CAAc,GAAA",
+  "names": ["TermsComponent", "selectors", "decls", "vars", "consts", "template", "rf", "ctx", "\u0275\u0275element", "\u0275\u0275property", "\u0275\u0275pipeBind1", "\u0275\u0275sanitizeHtml", "_TermsComponent"]
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/pages/user/certificates/certificates.component.scss"],
+  "sourcesContent": [".donwload-certificate{\n  cursor: pointer;\n}\n"],
+  "mappings": "AAAA,CAAA,qBACE,OAAA",
+  "names": []
+}

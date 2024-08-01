@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/components/paymentform/paymentform.component.scss"],
+  "sourcesContent": [".credit-card{\n  border: 1px solid #dee2e6;\n  cursor: pointer;\n}\n.disable-other-button{\n  pointer-events:none;\n  opacity: .5;\n}\n"],
+  "mappings": "AAAA,CAAA,YACE,OAAA,IAAA,MAAA,QACA,OAAA,QAEF,CAAA,qBACE,eAAA,KACA,QAAA",
+  "names": []
+}

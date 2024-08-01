@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/pages/success/success.module.ts"],
+  "sourcesContent": ["import { NgModule } from '@angular/core';\nimport { RouterModule, Routes } from '@angular/router';\nimport { SuccessComponent } from './success.component';\n\n\nconst routes: Routes = [\n  { path: '', component: SuccessComponent }\n];\n\n@NgModule({\n  imports: [RouterModule.forChild(routes)],\n  exports: [RouterModule]\n})\nexport class SuccessModule { }\n"],
+  "mappings": "+TAKA,IAAMA,EAAiB,CACrB,CAAEC,KAAM,GAAIC,UAAWC,CAAgB,CAAE,EAO9BC,GAAa,IAAA,CAApB,IAAOA,EAAP,MAAOA,CAAa,yCAAbA,EAAa,sBAAbA,CAAa,CAAA,0BAHdC,EAAaC,SAASN,CAAM,EAC5BK,CAAY,CAAA,CAAA,EAElB,IAAOD,EAAPG,SAAOH,CAAa,GAAA",
+  "names": ["routes", "path", "component", "SuccessComponent", "SuccessModule", "RouterModule", "forChild", "_SuccessModule"]
+}

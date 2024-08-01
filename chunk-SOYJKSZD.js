@@ -1,0 +1,2 @@
+import{a as n}from"./chunk-22HH4XNO.js";import{Jb as r,M as i,S as e}from"./chunk-DZ73TETG.js";import"./chunk-V6HEXNAP.js";import"./chunk-EZ6K2MJB.js";var s=[{path:"",component:n}],u=(()=>{let t=class t{};t.\u0275fac=function(m){return new(m||t)},t.\u0275mod=e({type:t}),t.\u0275inj=i({imports:[r.forChild(s),r]});let o=t;return o})();export{u as PolicyModule};
+//# sourceMappingURL=chunk-SOYJKSZD.js.map

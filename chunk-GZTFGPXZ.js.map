@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/pages/test/test.module.ts"],
+  "sourcesContent": ["import { NgModule } from '@angular/core';\nimport { RouterModule, Routes } from '@angular/router';\nimport { TestComponent } from './test.component';\n\nconst routes: Routes = [\n  { path: '', component: TestComponent }\n];\n\n@NgModule({\n  imports: [RouterModule.forChild(routes)],\n  exports: [RouterModule]\n})\nexport class TestModule { }\n"],
+  "mappings": "uXAIA,IAAMA,EAAiB,CACrB,CAAEC,KAAM,GAAIC,UAAWC,CAAa,CAAE,EAO3BC,GAAU,IAAA,CAAjB,IAAOA,EAAP,MAAOA,CAAU,yCAAVA,EAAU,sBAAVA,CAAU,CAAA,0BAHXC,EAAaC,SAASN,CAAM,EAC5BK,CAAY,CAAA,CAAA,EAElB,IAAOD,EAAPG,SAAOH,CAAU,GAAA",
+  "names": ["routes", "path", "component", "TestComponent", "TestModule", "RouterModule", "forChild", "_TestModule"]
+}

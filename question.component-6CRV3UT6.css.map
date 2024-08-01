@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/pages/admin/question/question/question.component.scss"],
+  "sourcesContent": [".btn-delete{\n  right: -15px;\n  top: -15px;\n  width: 30px;\n  height: 30px;\n  border-radius: 99%;\n  -webkit-border-radius: 99%;\n  -moz-border-radius: 99%;\n  -ms-border-radius: 99%;\n  -o-border-radius: 99%;\n}\n"],
+  "mappings": "AAAA,CAAA,WACE,MAAA,MACA,IAAA,MACA,MAAA,KACA,OAAA,KAJF,cAKE,IACA,sBAAA,IACA,mBAAA,IACA,kBAAA,IACA,iBAAA",
+  "names": []
+}

@@ -1,0 +1,2 @@
+import{a as n}from"./chunk-VZ7FUGFN.js";import{Jb as i,M as r,S as e}from"./chunk-DZ73TETG.js";import"./chunk-V6HEXNAP.js";import"./chunk-EZ6K2MJB.js";var s=[{path:"",component:n}],u=(()=>{let t=class t{};t.\u0275fac=function(m){return new(m||t)},t.\u0275mod=e({type:t}),t.\u0275inj=r({imports:[i.forChild(s),i]});let o=t;return o})();export{u as WhatIsIqModule};
+//# sourceMappingURL=chunk-EU2DVBDD.js.map

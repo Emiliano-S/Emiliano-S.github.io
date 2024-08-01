@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/components/certificate/certificate.component.scss"],
+  "sourcesContent": [".certificado{\n  background-color: #fff;\n  border: 10px solid #476597;\n  outline: 10px solid #476597;\n  outline-offset: -30px;\n  z-index: -1;\n}\n\n#certificate{\n  width: 1342px !important;\n  height: 795px !important;\n  top: -100vh;\n  left: calc(-100vh - 1342px);\n}\n"],
+  "mappings": "AAAA,CAAA,YACE,iBAAA,KACA,OAAA,KAAA,MAAA,QACA,QAAA,KAAA,MAAA,QACA,eAAA,MACA,QAAA,GAGF,CAAA,YACE,MAAA,iBACA,OAAA,gBACA,IAAA,OACA,KAAA,KAAA,OAAA,EAAA",
+  "names": []
+}
