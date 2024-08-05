@@ -79,17 +79,10 @@
                     </button>
                 </div>
                 <div class="col-12 d-lg-flex col-lg-6 d-none flex-row justify-content-center align-items-end position-relative">
-                    <picture>
-                        <img
-                        sizes="(max-width: 452px) 100vw, 452px"
-                        srcset="
-                        ./resources/img/girl_uopvwd_c_scale,w_200.png 200w,
-                        ./resources/img/girl_uopvwd_c_scale,w_340.png 340w,
-                        ./resources/img/girl_uopvwd_c_scale,w_452.png 452w,"
-                        src="./resources/img/girl_uopvwd_c_scale,w_452.png"
-                        alt="Chica pensando"
-                        id="girlImg"/>
-                    </picture>
+                  <picture>
+                    <source srcset="./resources/img/girl_uopvwd_c_scale_w_200.webp 200w, ./resources/img/girl_uopvwd_c_scale_w_340.webp 340w, ./resources/img/girl_uopvwd_c_scale_w_452.webp 452w" sizes="(max-width: 452px) 100vw, 452px">
+                    <img src="./resources/img/girl_uopvwd_c_scale_w_452.webp" alt="Chica pensando" id="girlImg" loading="lazy" />
+                  </picture>
                     <div class="card position-absolute d-flex flex-column" id="peopleOnline">
                         <span class="fw-bold fs-2">
                             240+
@@ -626,7 +619,7 @@
                 <div class="country-iq-list d-flex flex-wrap justify-content-center align-items-center col-lg-10 col-12 gap-lg-1 gap-0 py-4">
                     <div class="country-iq-card d-flex justify-content-center align-items-center gap-2 col-6 col-md-3 col-lg-2 py-3">
                         <div class="country-flag">
-                            <img src="./resources/img/flags/italy.svg" alt="Italy flag" width="44" height="44" />
+                            <img src="./resources/img/flags/italy.svg" alt="Italy flag" width="44" height="44" loading="lazy" />
                         </div>
                         <div class="country-info d-flex flex-column justify-content-start align-items-start">
                             <span class="country-iq fw-bold">106</span>
@@ -635,7 +628,7 @@
                     </div>
                     <div class="country-iq-card d-flex justify-content-center align-items-center gap-2 col-6 col-md-3 col-lg-2 py-3">
                         <div class="country-flag">
-                            <img src="./resources/img/flags/andorra.svg" alt="Andorra flag" width="44" height="44" />
+                            <img src="./resources/img/flags/andorra.svg" alt="Andorra flag" width="44" height="44" loading="lazy" />
                         </div>
                         <div class="country-info d-flex flex-column justify-content-start align-items-start">
                             <span class="country-iq fw-bold">101</span>
@@ -644,7 +637,7 @@
                     </div>
                     <div class="country-iq-card d-flex justify-content-center align-items-center gap-2 col-6 col-md-3 col-lg-2 py-3">
                         <div class="country-flag">
-                            <img src="./resources/img/flags/china.svg" alt="China flag" width="44" height="44" />
+                            <img src="./resources/img/flags/china.svg" alt="China flag" width="44" height="44" loading="lazy" />
                         </div>
                         <div class="country-info d-flex flex-column justify-content-start align-items-start">
                             <span class="country-iq fw-bold">108</span>
@@ -653,7 +646,7 @@
                     </div>
                     <div class="country-iq-card d-flex justify-content-center align-items-center gap-2 col-6 col-md-3 col-lg-2 py-3">
                         <div class="country-flag">
-                            <img src="./resources/img/flags/japan.svg" alt="Japan flag" width="44" height="44" />
+                            <img src="./resources/img/flags/japan.svg" alt="Japan flag" width="44" height="44" loading="lazy" />
                         </div>
                         <div class="country-info d-flex flex-column justify-content-start align-items-start">
                             <span class="country-iq fw-bold">110</span>
@@ -662,7 +655,7 @@
                     </div>
                     <div class="country-iq-card d-flex justify-content-center align-items-center gap-2 col-6 col-md-3 col-lg-2 py-3">
                         <div class="country-flag">
-                            <img src="./resources/img/flags/uruguay.svg" alt="Uruguay flag" width="44" height="44" />
+                            <img src="./resources/img/flags/uruguay.svg" alt="Uruguay flag" width="44" height="44" loading="lazy" />
                         </div>
                         <div class="country-info d-flex flex-column justify-content-start align-items-start">
                             <span class="country-iq fw-bold">101</span>
@@ -671,7 +664,7 @@
                     </div>
                     <div class="country-iq-card d-flex justify-content-center align-items-center gap-2 col-6 col-md-3 col-lg-2 py-3">
                         <div class="country-flag">
-                            <img src="./resources/img/flags/guatemala.svg" alt="Guatemala flag" width="44" height="44" />
+                            <img src="./resources/img/flags/guatemala.svg" alt="Guatemala flag" width="44" height="44" loading="lazy" />
                         </div>
                         <div class="country-info d-flex flex-column justify-content-start align-items-start">
                             <span class="country-iq fw-bold">101</span>
@@ -680,7 +673,7 @@
                     </div>
                     <div class="country-iq-card d-flex justify-content-center align-items-center gap-2 col-6 col-md-3 col-lg-2 py-3">
                         <div class="country-flag">
-                            <img src="./resources/img/flags/ecuador.svg" alt="Ecuador flag" width="44" height="44" />
+                            <img src="./resources/img/flags/ecuador.svg" alt="Ecuador flag" width="44" height="44" loading="lazy" />
                         </div>
                         <div class="country-info d-flex flex-column justify-content-start align-items-start">
                             <span class="country-iq fw-bold">102</span>
@@ -689,7 +682,7 @@
                     </div>
                     <div class="country-iq-card d-flex justify-content-center align-items-center gap-2 col-6 col-md-3 col-lg-2 py-3">
                         <div class="country-flag">
-                            <img src="./resources/img/flags/romania.svg" alt="Romania flag" width="44" height="44" />
+                            <img src="./resources/img/flags/romania.svg" alt="Romania flag" width="44" height="44" loading="lazy" />
                         </div>
                         <div class="country-info d-flex flex-column justify-content-start align-items-start">
                             <span class="country-iq fw-bold">100</span>
@@ -698,7 +691,7 @@
                     </div>
                     <div class="country-iq-card d-flex justify-content-center align-items-center gap-2 col-6 col-md-3 col-lg-2 py-3">
                         <div class="country-flag">
-                            <img src="./resources/img/flags/venezuela.svg" alt="Venezuela flag" width="44" height="44" />
+                            <img src="./resources/img/flags/venezuela.svg" alt="Venezuela flag" width="44" height="44" loading="lazy" />
                         </div>
                         <div class="country-info d-flex flex-column justify-content-start align-items-start">
                             <span class="country-iq fw-bold">101</span>
@@ -707,7 +700,7 @@
                     </div>
                     <div class="country-iq-card d-flex justify-content-center align-items-center gap-2 col-6 col-md-3 col-lg-2 py-3">
                         <div class="country-flag">
-                            <img src="./resources/img/flags/bolivia.svg" alt="Bolivia flag" width="44" height="44" />
+                            <img src="./resources/img/flags/bolivia.svg" alt="Bolivia flag" width="44" height="44" loading="lazy" />
                         </div>
                         <div class="country-info d-flex flex-column justify-content-start align-items-start">
                             <span class="country-iq fw-bold">101</span>
