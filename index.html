@@ -91,12 +91,12 @@
             <div class="col-12 d-lg-flex col-lg-6 d-none flex-row justify-content-center align-items-end position-relative">
               <picture>
                 <source srcset="./assets/img/girl_uopvwd_c_scale_w_200.webp 200w, ./assets/img/girl_uopvwd_c_scale_w_340.webp 340w, ./assets/img/girl_uopvwd_c_scale_w_452.webp 452w" sizes="(max-width: 452px) 100vw, 452px">
-                <img src="./assets/img/girl_uopvwd_c_scale_w_452.webp" alt="Chica pensando" id="girlImg" loading="lazy" />
+                <img src="./assets/img/girl_uopvwd_c_scale_w_452.webp" alt="Chica pensando" id="girlImg"/>
               </picture>
         
               <div class="card position-absolute d-flex flex-column" id="peopleOnline">
                 <span class="fw-bold fs-2 d-flex gap-2 justify-content-start align-items-center">
-                  <div class="green-dot"></div>{{peopleOnline | number}}
+                  <div class="green-dot"></div><span id="people-online-number">0</span>
                 </span>
                 <p class="m-0" id="header-p_people">
                 </p>
@@ -686,5 +686,13 @@
             </div>
           </section>
         </div>
+        <div id="popup" class="popup-notification d-flex justify-content-center align-items-center gap-2 position-fixed p-2 px-3">
+          <div class="popup-icon-container text-white d-flex justify-content-center align-items-center">
+              <i class="bi bi-patch-check-fill"></i>
+          </div>
+          <div class="popup-text">
+              <p class="p-0 m-0" id="popup-message"></p>
+          </div>
+      </div>
         <script src="./assets/js/translate.js"></script>
 </body>
