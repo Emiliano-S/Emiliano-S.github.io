@@ -46,8 +46,8 @@
       <link rel="stylesheet" href="./assets/css/bootstrap-icons.min.css">
       <link href="./assets/css/bootstrap.min.css" rel="stylesheet"/>
       <link href="./assets/css/main.css" rel="stylesheet" />
-      <link rel="preload" fetchpriority="high" as="image" href="./assets/img/IQIMG.webp" type="image/webp">
-      
+      <link rel="preload" fetchpriority="high" as="image" href="./assets/img/IQIMG_hdacko_c_scale,w_300.webp" type="image/webp">
+      <link rel="preload" fetchpriority="high" as="image" href="./assets/img/IQIMG_hdacko_c_scale,w_200.webp" type="image/webp">
 
       <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11348900696"></script>
       <script>
@@ -172,12 +172,15 @@
           <section class="container d-flex flex-wrap flex-row justify-content-between align-items-center py-md-5 pb-5 pt-0"
           id="header">
           <div class="col-12 d-flex justify-content-center align-items-center d-lg-none">
-            <img
-            src="./assets/img/IQIMG.webp"
-            alt="IQ image"
-            width="300"
-            height="334"
-            />
+            <picture>
+              <img
+              sizes="(max-width: 300px) 100vw, 300px"
+              srcset="
+              ./assets/img/IQIMG_hdacko_c_scale,w_200.webp 200w,
+              ./assets/img/IQIMG_hdacko_c_scale,w_300.webp 300w"
+              src="./assets/img/IQIMG_hdacko_c_scale,w_300.webp"
+              alt="">
+              </picture>
           </div>
           <div class="col-12 col-lg-6 d-flex flex-column justify-content-start align-items-start py-md-5 py-0 mb-lg-5 mt-lg-0 mt-5">
             <h1 style=" font-weight: 100;
