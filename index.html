@@ -117,7 +117,7 @@
                       <a class="nav-link" href="#review" title="Cancelar inscripción" aria-label="Cancelar inscripción">Reviews</a>
                     </li>
                   </ul>
-                  <button class="btn-custom gap-1 d-flex align-items-center fade-in visible" type="button" onclick="location.href='./app/test';">
+                  <button class="btn-custom gap-1 d-flex align-items-center fade-in visible" type="button" onclick="location.href='./app/';">
                       <span>
                           Realiza el test
                       </span>
@@ -144,7 +144,7 @@
       
             </p>
             <button class="btn-custom gap-1 d-flex align-items-center fade-in visible " type="button"
-              (click)="navigateTo('test')">
+            onclick="location.href='./app/';">
               <span id="header-button">
               </span>
             </button>
@@ -273,19 +273,13 @@
               </div>
             </div>
             <button class="btn-custom gap-1 d-flex align-items-center fade-in visible" type="button"
-              (click)="navigateTo('test')">
+            onclick="location.href='./app/';">
               <span id="why-button">
                 {{'home.why.button' | translate}}
               </span>
             </button>
           </div>
           <div class="col-lg-6 col-12 d-flex order-0 order-lg-1 justify-content-center align-items-center">
-            <!-- <picture>
-              <img sizes="(max-width: 549px) 100vw, 549px" srcset="
-                    ./assets/img/grap-iq_qhtfhf_c_scale,w_200.png 200w,
-                    ./assets/img/grap-iq_qhtfhf_c_scale,w_549.png 549w" src="./assets/img/grap-iq_qhtfhf_c_scale,w_549.png"
-                alt="" class="img-fluid">
-            </picture> -->
             <div class="d-flex flex-fill justify-content-center align-items-center">
               <canvas id="myLineChart"></canvas>
             </div>
@@ -780,7 +774,14 @@
               </div>
             </a>
             <div class="language-container mt-2">
-              <app-translater></app-translater>
+              <div class="d-inline-block dropdown">
+                <button type="button" class="btn btn-outline-primary rounded-3 d-flex justify-content-start align-items-center gap-2" id="dropdownBasic2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <span id="current-language">English</span>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownBasic2" id="language-dropdown">
+                  <!-- Language options will be inserted here by JavaScript -->
+                </div>
+              </div>
             </div>
           </div>
           <div class="center-side">
