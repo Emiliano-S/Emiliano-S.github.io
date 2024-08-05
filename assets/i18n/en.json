@@ -1,0 +1,399 @@
+{
+  "navbar": {
+    "price": "Prices",
+    "why": "Why this IQ test?",
+    "reviews": "Reviews",
+    "take_test": "Take the test"
+  },
+  "footer":{
+    "unsubscribe": "Unsubscribe",
+    "terms": "Terms and conditions",
+    "policy": "Privacy policy",
+    "contact_email": "Answer in less than 24 hours",
+    "what_is": "What is IQ?"
+  },
+  "certificate": {
+  "title": "INTELLIGENCE QUOTIENT CERTIFICATE",
+  "download": "Download certificate",
+  "subtitle": "It is certified that",
+  "text": "has successfully completed the intellectual exam with the following score",
+  "serial_number": "Certificate serial number",
+  "administrator": "Administrator"
+  },
+  "payment_form": {
+    "credit_card": "Credit card",
+    "apple_pay": "Pay with Apple Pay",
+    "google_pay": "Pay with Google Pay",
+    "card-number": {
+      "label": "Card Number"
+    },
+    "card-date": {
+      "label": "Expiration Date"
+    },
+    "email": {
+      "label": "Email",
+      "error": {
+        "required": "Email is required.",
+        "invalid": "Email format is invalid."
+      }
+    },
+    "password":{
+      "label": "Password",
+      "error":{
+        "required": "Password is required.",
+        "minLength": "Minimum 8 characters"
+      }
+    },
+    "name": {
+      "label": "Full name",
+      "error": {
+        "required": "Full name is required."
+      }
+    },
+    "terms": {
+      "label": "I have read and accept the <a href='#/terms' target='_blank'>terms and conditions!</a>",
+      "error": {
+        "required": "You must accept the terms and conditions"
+      }
+    },
+    "result": "Get my result"
+  },
+  "unsubscribe": {
+    "title": "Unsubscribe from IQ Test",
+    "form": {
+      "label": "Email:",
+      "error": {
+        "required": "Email is required.",
+        "invalidEmail": "Email format is invalid."
+      }
+    },
+    "button": "Unsubscribe"
+  },
+  "user-menu": {
+  "certificate": "My certificates",
+  "admin_dashboard": "Question dashboard",
+  "admin_user": "Users stats",
+  "admin_configuration": "App configuration"
+  },
+  "admin": {
+    "pages": {
+      "question": {
+        "back_button": "Back",
+        "delete_button": "Delete question",
+        "form": {
+          "information": {
+            "title": "Information",
+            "title_input": "Question title",
+            "difficulty_input": "Question difficulty",
+            "type_input": "Question type",
+            "type_text": "Text",
+            "type_img": "Image",
+            "type_question": "Question"
+          },
+          "option": {
+            "title": "Options",
+            "type_input": "Option type",
+            "type_text": "Text",
+            "type_img": "Image",
+            "option_number_title": "Number of options",
+            "option_label": "Option"
+          }
+        }
+      },
+      "question_list": {
+        "title": "Question List",
+        "button_add": "New Question",
+        "table": {
+          "question_title": "Question Title",
+          "question_type": "Question Type",
+          "question": "Question",
+          "question_difficulty": "Difficulty",
+          "options_type": "Options Type",
+          "type_text": "Text",
+          "type_img": "Image"
+        }
+      },
+      "upload": {
+      "title": "Add New Question",
+      "button_reset": "Reset",
+      "button_add": "Add Question",
+      "button_edit": "Edit question",
+      "form": {
+        "information": {
+          "title": "Information",
+          "question_title_label": "Question Title",
+          "question_title_text": "Minimum 10 characters",
+          "question_title_required": "Question title is required.",
+          "question_title_min": "Question title must be at least 10 characters long.",
+          "question_difficulty_label": "Question Difficulty",
+          "question_difficulty_required": "Question difficulty is required.",
+          "question_difficulty_min": "Question difficulty must be at least 1.",
+          "question_difficulty_max": "Question difficulty must be at most 10.",
+          "question_type_label": "Question Type",
+          "question_type_text": "Text",
+          "question_type_img": "Image",
+          "question_type_required": "Question type is required.",
+          "question_text_label": "Enter the question",
+          "question_text_required": "Question text is required.",
+          "question_img_label": "Choose image",
+          "question_img_required": "Image is required."
+        },
+        "option": {
+          "title": "Options",
+          "option_type_label": "Option Type",
+          "option_type_text": "Text",
+          "option_type_img": "Image",
+          "option_type_required": "Option type is required.",
+          "option_number_label": "Number of options",
+          "option_number_required": "Number of options is required.",
+          "option_label": "Option",
+          "option_text_required": "Answer text is required.",
+          "option_img_required": "Image is required.",
+          "option_answer_label": "Is the answer",
+          "answer_required": "At least one of the options must be selected as the correct answer.",
+          "delete_image":"Delete image"
+        }
+      }
+      },
+      "users": {
+        "title": "Subscribed Users and Payments",
+        "total_pay_users": "Total Payments Made",
+        "total_suscription_users": "Total Active Subscriptions",
+        "search-email": "Search by email",
+        "table":{
+          "email": "Email",
+          "name": "Name",
+          "registration-date": "Registration date",
+          "role": "Role",
+          "subscription": "Subscription",
+          "actions": "Actions",
+          "delete": "Delete"
+        }
+      },
+      "configuration":{
+        "title": "App configuration",
+        "stripe":{
+          "title": "Stripe configuration",
+          "public_key": "Stripe public key",
+          "secret_key": "Stripe secret key",
+          "update_button": "Update",
+          "price_id": "Stripe price id for subscription"
+        },
+        "languages":{
+          "title": "Languages",
+          "delete_button": "Delete",
+          "instructions": "<h5 class='mt-4'>Add new languages</h5><div><strong>To add a new language to the application:</strong><ol><li>Enter the language code and name below.</li><li>After entering the code and name, you will need to manually upload the corresponding JSON file to your host.</li><li>Upload the JSON file to the following path on your host: <strong>/assets/i18n/&lt;language-codegt;.json</strong> (replace &lt;language-code&gt; with the lowercase code you entered).</li></ol><strong>Download Example JSON File</strong><p>You can download an example JSON file to use as a template for your language file.</p></div>",
+          "language_code": "Language code",
+          "language_name": "Language name",
+          "add_language": "Add Language",
+          "download_json": "Download example JSON"
+        }
+      }
+    }
+  },
+  "policy": {
+    "text": "<h1 class='fw-bold'>Privacy Policy for IQ Test</h1><p>At IQ Test, accessible from https://iqexamonline.com/, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by IQ Test and how we use it.</p><p>If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.</p><p>This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in IQ Test. This policy is not applicable any information collected offline or via channels other than this website.</p><h2 class='fw-bold'>Consent</h2><p>By using our website, you hereby consent to our Privacy Policy and agree to its terms.</p><h2 class='fw-bold'>Information we collect</h2><p>The personal information that you are asked to provide, and the reasons why you are asked to provide it, will be made clear to you at the point we ask you to provide your personal information.</p><p>If you contact us directly, we may receive additional information about you such as your name, email address, phone number, the contents of the message and/or attachments you may send us, and any othinformation you may choose to provide.</p><p>When you register for an Account, we may ask for your contact information, including items such as name, company name, address, email address, and telephone number.</p><h2 class='fw-bold'>How we use your information</h2><p>We use the information we collect in various ways, including to:</p><ul><li>Provide, operate, and maintain our webste</li><li>Improve, personalize, and expand our webste</li><li>Understand and analyze how you use our webste</li><li>Develop new products, services, features, and functionality</li><li>Communicate with you, either directly or through one of our partners, including for customer service, to provide you with updates and other information relating to the webste, and for marketing apromotional purposes</li><li>Send you emails</li><li>Find and prevent fraud</li></ul><h2 class='fw-bold'>Log Files</h2><p>IQ Test follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and a part of hosting services' analytics. The information collectby log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to ainformation that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users' movement on the website, and gathering demographic information. OPrivacy Policy was created with the help of the <a href='https://www.privacypolicygenerator.info'>Privacy Policy Generator</a> and the <a href='https://www.privacypolicyonline.com/privacy-policy-generat'>Online Privacy Policy Generator</a>.</p><h2 class='fw-bold'>Cookies and Web Beacons</h2><p>Like any other website, IQ Test uses 'cookies'. These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The informatiis used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information.</p><p>For more general information on cookies, please read <a href='https://www.cookieconsent.com/what-are-cookies/'>'What Are Cookies'</a>.</p><h2 class='fw-bold'>Advertising Partners Privacy Policies</h2><p>You may consult this list to find the Privacy Policy for each of the advertising partners of IQ Test.</p><p>Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on IQ Test, which are sent directly users' browser. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising contethat you see on websites that you visit.</p><p>Note that IQ Test has no access to or control over these cookies that are used by third-party advertisers.</p><h2 class='fw-bold'>Third Party Privacy Policies</h2><p>IQ Test's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. may include their practices and instructions about how to opt-out of certain options. </p><p>You can choose to disable cookies through your individual browser options. To know more detailed information about cookie management with specific web browsers, it can be found at the browsers' respectiwebsites.</p><h2 class='fw-bold'>CCPA Privacy Rights (Do Not Sell My Personal Information)</h2><p>Under the CCPA, among other rights, California consumers have the right to:</p><p>Request that a business that collects a consumer's personal data disclose the categories and specific pieces of personal data that a business has collected about consumers.</p><p>Request that a business delete any personal data about the consumer that a business has collected.</p><p>Request that a business that sells a consumer's personal data, not sell the consumer's personal data.</p><p>If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us.</p><h2 class='fw-bold'>GDPR Data Protection Rights</h2><p>We would like to make sure you are fully aware of all of your data protection rights. Every user is entitled to the following:</p><p>The right to access – You have the right to request copies of your personal data. We may charge you a small fee for this service.</p><p>The right to rectification – You have the right to request that we correct any information you believe is inaccurate. You also have the right to request that we complete the information you believe incomplete.</p><p>The right to erasure – You have the right to request that we erase your personal data, under certain conditions.</p><p>The right to restrict processing – You have the right to request that we restrict the processing of your personal data, under certain conditions.</p><p>The right to object to processing – You have the right to object to our processing of your personal data, under certain conditions.</p><p>The right to data portability – You have the right to request that we transfer the data that we have collected to another organization, or directly to you, under certain conditions.</p><p>If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us.</p><h2 class='fw-bold'>Children's Information</h2><p>Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity.</p><p>IQ Test does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourayou to contact us immediately and we will do our best efforts to promptly remove such information from our records.</p>"
+  },
+  "success": {
+    "title": "Thank you for completing your payment!",
+    "text": "We are generating your certificate, which you will be able to download shortly.",
+    "qi_title": "Your IQ score is",
+    "qi_table": {
+    "table_value_1": "Deficient",
+    "table_value_2": "Borderline",
+    "table_value_3": "Below Average",
+    "table_value_4": "Average",
+    "table_value_5": "Above Average",
+    "table_value_6": "Gifted",
+    "table_value_7": "Highly Gifted"
+    }
+  },
+  "terms":{
+    "text": "<h2><strong>Terms and Conditions</strong></h2><p>Welcome to IQ Test!</p><p>These terms and conditions outline the rules and regulations for the use of IQ Test's Website, located at https://iqexamonline.com/.</p><p>By accessing this website we assume you accept these terms and conditions. Do not continue to use IQ Test if you do not agree to take all of the terms and conditions stated on this page. Our Terms and Conditions were created with the help of the <a href='https://www.termsandconditionsgenerator.com'>Terms And Conditions Generator</a> and the <a href='https://www.privacypolicyonline.com/terms-conditions-generator/'>Free Terms & Conditions Generator</a>.</p><p>The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and all Agreements: 'Client', 'You' and 'Your' refers to you, the person log on this website and compliant to the Company’s terms and conditions. 'The Company', 'Ourselves', 'We', 'Our' and 'Us', refers to our Company. 'Party', 'Parties', or 'Us', refers to both the Client and ourselves. All terms refer to the offer, acceptance and consideration of payment necessary to undertake the process of our assistance to the Client in the most appropriate manner for the express purpose of meeting the Client’s needs in respect of provision of the Company’s stated services, in accordance with and subject to, prevailing law of Netherlands. Any use of the above terminology or other words in the singular, plural, capitalization and/or he/she or they, are taken as interchangeable and therefore as referring to same.</p><h3><strong>Cookies</strong></h3><p>We employ the use of cookies. By accessing IQ Test, you agreed to use cookies in agreement with the IQ Test's Privacy Policy.</p><p>Most interactive websites use cookies to let us retrieve the user’s details for each visit. Cookies are used by our website to enable the functionality of certain areas to make it easier for people visiting our website. Some of our affiliate/advertising partners may also use cookies.</p><h3><strong>License</strong></h3><p>Unless otherwise stated, IQ Test and/or its licensors own the intellectual property rights for all material on IQ Test. All intellectual property rights are reserved. You may access this from IQ Test for your own personal use subjected to restrictions set in these terms and conditions.</p><p>You must not:</p><ul><li>Republish material from IQ Test</li><li>Sell, rent or sub-license material from IQ Test</li><li>Reproduce, duplicate or copy material from IQ Test</li><li>Redistribute content from IQ Test</li></ul><p>This Agreement shall begin on the date hereof.</p><p>Parts of this website offer an opportunity for users to post and exchange opinions and information in certain areas of the website. IQ Test does not filter, edit, publish or review Comments prior to their presence on the website. Comments do not reflect the views and opinions of IQ Test,its agents and/or affiliates. Comments reflect the views and opinions of the person who post their views and opinions. To the extent permitted by applicable laws, IQ Test shall not be liable for the Comments or for any liability, damages or expenses caused and/or suffered as a result of any use of and/or posting of and/or appearance of the Comments on this website.</p><p>IQ Test reserves the right to monitor all Comments and to remove any Comments which can be considered inappropriate, offensive or causes breach of these Terms and Conditions.</p><p>You warrant and represent that:</p><ul><li>You are entitled to post the Comments on our website and have all necessary licenses and consents to do so;</li><li>The Comments do not invade any intellectual property right, including without limitation copyright, patent or trademark of any third party;</li><li>The Comments do not contain any defamatory, libelous, offensive, indecent or otherwise unlawful material which is an invasion of privacy</li><li>The Comments will not be used to solicit or promote business or custom or present commercial activities or unlawful activity.</li></ul><p>You hereby grant IQ Test a non-exclusive license to use, reproduce, edit and authorize others to use, reproduce and edit any of your Comments in any and all forms, formats or media.</p><h3><strong>Hyperlinking to our Content</strong></h3><p>The following organizations may link to our Website without prior written approval:</p><ul><li>Government agencies;</li><li>Search engines;</li><li>News organizations;</li><li>Online directory distributors may link to our Website in the same manner as they hyperlink to the Websites of other listed businesses; and</li><li>System wide Accredited Businesses except soliciting non-profit organizations, charity shopping malls, and charity fundraising groups which may not hyperlink to our Web site.</li></ul><p>These organizations may link to our home page, to publications or to other Website information so long as the link: (a) is not in any way deceptive; (b) does not falsely imply sponsorship, endorsement or approval of the linking party and its products and/or services; and (c) fits within the context of the linking party’s site.</p><p>We may consider and approve other link requests from the following types of organizations:</p><ul><li>commonly-known consumer and/or business information sources;</li><li>dot.com community sites;</li><li>associations or other groups representing charities;</li><li>online directory distributors;</li><li>internet portals;</li><li>accounting, law and consulting firms; and</li><li>educational institutions and trade associations.</li></ul><p>We will approve link requests from these organizations if we decide that: (a) the link would not make us look unfavorably to ourselves or to our accredited businesses; (b) the organization does not have any negative records with us; (c) the benefit to us from the visibility of the hyperlink compensates the absence of IQ Test; and (d) the link is in the context of general resource information.</p><p>These organizations may link to our home page so long as the link: (a) is not in any way deceptive; (b) does not falsely imply sponsorship, endorsement or approval of the linking party and its products or services; and (c) fits within the context of the linking party’s site.</p><p>If you are one of the organizations listed in paragraph 2 above and are interested in linking to our website, you must inform us by sending an e-mail to IQ Test. Please include your name, your organization name, contact information as well as the URL of your site, a list of any URLs from which you intend to link to our Website, and a list of the URLs on our site to which you would like to link. Wait 2-3 weeks for a response.</p><p>Approved organizations may hyperlink to our Website as follows:</p><ul><li>By use of our corporate name; or</li><li>By use of the uniform resource locator being linked to; or</li><li>By use of any other description of our Website being linked to that makes sense within the context and format of content on the linking party’s site.</li></ul><p>No use of IQ Test's logo or other artwork will be allowed for linking absent a trademark license agreement.</p><h3><strong>iFrames</strong></h3><p>Without prior approval and written permission, you may not create frames around our Webpages that alter in any way the visual presentation or appearance of our Website.</p><h3><strong>Content Liability</strong></h3><p>We shall not be hold responsible for any content that appears on your Website. You agree to protect and defend us against all claims that is rising on your Website. No link(s) should appear on any Website that may be interpreted as libelous, obscene or criminal, or which infringes, otherwise violates, or advocates the infringement or other violation of, any third party rights.</p><h3><strong>Your Privacy</strong></h3><p>Please read Privacy Policy</p><h3><strong>Reservation of Rights</strong></h3><p>We reserve the right to request that you remove all links or any particular link to our Website. You approve to immediately remove all links to our Website upon request. We also reserve the right to amen these terms and conditions and it’s linking policy at any time. By continuously linking to our Website, you agree to be bound to and follow these linking terms and conditions.</p><h3><strong>Removal of links from our website</strong></h3><p>If you find any link on our Website that is offensive for any reason, you are free to contact and inform us any moment. We will consider requests to remove links but we are not obligated to or so or to respond to you directly.</p><p>We do not ensure that the information on this website is correct, we do not warrant its completeness or accuracy; nor do we promise to ensure that the website remains available or that the material on the website is kept up to date.</p><h3><strong>Disclaimer</strong></h3><p>To the maximum extent permitted by applicable law, we exclude all representations, warranties and conditions relating to our website and the use of this website. Nothing in this disclaimer will:</p><ul><li>limit or exclude our or your liability for death or personal injury;</li><li>limit or exclude our or your liability for fraud or fraudulent misrepresentation;</li><li>limit any of our or your liabilities in any way that is not permitted under applicable law; or</li><li>exclude any of our or your liabilities that may not be excluded under applicable law.</li></ul><p>The limitations and prohibitions of liability set in this Section and elsewhere in this disclaimer: (a) are subject to the preceding paragraph; and (b) govern all liabilities arising under the disclaimer, including liabilities arising in contract, in tort and for breach of statutory duty.</p><p>As long as the website and the information and services on the website are provided free of charge, we will not be liable for any loss or damage of any nature.</p>"
+  },
+  "test": {
+    "mode": {
+      "none": {
+        "title": "Ready to start?",
+        "list_1": "Make sure you are in a quiet place where you can concentrate.",
+        "list_2": "<i class='bi bi-check-circle-fill text-success'></i> You are about to solve {{numberOfQuestions}} visual exercises that gradually increase in difficulty.",
+        "list_3": "There is no time limit, but do not get distracted during the test.",
+        "list_4": "Do not use the Internet or any external assistance.",
+        "list_5": "When you are ready, click the button below to start.",
+        "list_6": "Your result at the end of this test will inform you about your IQ (Intelligence Quotient).",
+        "button_start": "START THE TEST"
+      },
+      "test": {
+        "time": "Time: {{elapsedTime}} / {{duration}}",
+        "question_title": "Question",
+        "question_number": "Question {{testPageIndex}} of {{testPageCount}}",
+        "select_option": "Select an answer",
+        "button_before": "Previous",
+        "button_next": "Next",
+        "button_send": "Submit test"
+      },
+      "loading": {
+        "title": "Your answers are being analyzed, your results will be ready soon!",
+        "loading_text_1": "Analytical synthesis",
+        "loading_text_2": "Visual performance",
+        "loading_text_3": "Time control and reactivity"
+      },
+      "result": {
+        "sec_1": {
+          "title": "The test result is available!",
+          "text": "You completed the test faster than 36% of the participants and demonstrated exceptional performance in pattern recognition."
+        },
+        "sec_2": {
+          "title": "Highlighted test results",
+          "time": "Completion time:",
+          "hability": "Significant ability:",
+          "hability_result": "Pattern recognition",
+          "strength": "Dominant strength:",
+          "strength_result": "Responsiveness"
+        },
+        "sec_3": {
+          "title": "Get your certificate"
+        },
+        "review": {
+          "country": "Spain",
+          "text": "<p class='fs-14 m-0 text-start'>Amazing experience! I took the test and was impressed with the results. It helped me better understand my cognitive abilities and now I feel more confident.</p><p class='fs-14 m-0 text-start'>I definitely recommend it!</p>",
+          "show-more": "Show more",
+          "show-less": "Show less"
+        },
+        "sec_4": {
+          "title_new": "Take advantage of our special offer!",
+          "title_download": "Download your certificate!",
+          "discount": "<i class='bi bi-stopwatch-fill text-muted'></i> This discount of <strong>98.75%</strong> is valid for <strong>{{ time }}</strong>",
+          "pay_%": "100% secure payments",
+          "pay_text": "Our IQ test service is exceptionally offered at a trial price for a 24-hour test. At the end of the trial period and if you do not cancel, our offer will automatically renew as a no-commitment subscription, at the monthly price. For more information, see our pricing page."
+        }
+      }
+    }
+  },
+  "user": {
+    "certificates": {
+      "title": "My Certificates",
+      "table": {
+        "th-1": "Certificate Serial Number",
+        "th-2": "Date",
+        "th-3": "Score",
+        "th-4": "Certificate",
+        "download": "Download Certificate"
+      }
+    }
+  },
+  "home": {
+    "header": {
+      "title": "Reveal your <span class='important-text'>brilliance with our IQ test</span>",
+      "p": "Answer 20 questions in 20 minutes and get your certificate. <br />What are you waiting for to know your IQ?",
+      "button": "Start now",
+      "p_people": "People are taking the test right now."
+    },
+    "how": {
+      "title": "How is our IQ test designed?",
+      "description": "Answer 20 progressively difficult questions, choose the correct answer from 6 options, and enjoy the freedom to skip and return to any question whenever you want.",
+      "card": {
+        "card_1_title": "20 Questions in 20 Minutes",
+        "card_1_description": "Focus and answer our questions that test your analytical memory, logic, and numerical skills.",
+        "card_2_title": "Immediate Result",
+        "card_2_description": "Our algorithm estimates your IQ according to the official method and provides you with your results, along with a scale to help you understand your position in relation to the population.",
+        "card_3_title": "Get Your Certificate",
+        "card_3_description": "Get your certificate and performance report so you can share it with your family and friends."
+      }
+    },
+    "why": {
+      "title": "Why this IQ test?",
+      "description_1": "Online IQ test offers you a complete series of interesting challenges to accurately measure your fluid intelligence.",
+      "description_2": "Take the test online from any device and at any time to quickly get an instant report with worldwide comparisons, effectively highlighting areas where you can improve.",
+      "button": "Take the test"
+    },
+    "price": {
+      "title": "Subscription plan and prices",
+      "description": "The daily subscription costs only €0.50, giving you full access for 24 hours. If you do not cancel, the subscription will automatically renew for a monthly plan at €39.90.",
+      "disclaimer": "*for 24 hours, then automatic monthly subscription at only €39.90",
+      "details": {
+        "detail_1": "Know your Intelligence Quotient",
+        "detail_2": "Take unlimited tests",
+        "detail_3": "Download your certificate in PDF",
+        "detail_4": "Compare your results globally",
+        "detail_5": "Share results on social media",
+        "detail_6": "Access from any device",
+        "detail_7": "Store your tests in your personal account"
+      },
+      "button_test": "Take the test",
+      "payment_method": "Accepted payment methods",
+      "price_text_cent": "Access all features during a 1-day trial",
+      "price_text_sub": "Then a monthly, automatic, subscription for only"
+    },
+    "review": {
+      "title": "What our users say about their experience with our IQ Test",
+      "reviews": {
+        "review_1": {
+          "iq": "IQ of 130",
+          "text": "<p>Incredible experience! I took the test and was impressed with the results. It helped me better understand my cognitive abilities and now I feel more confident.</p><p>I definitely recommend it!</p>",
+          "country": "Spain"
+        },
+        "review_2": {
+          "iq": "IQ of 140",
+          "text": "<p>A fantastic tool! The IQ test was challenging but very rewarding. Getting my score was revealing and motivated me to keep working on my intellectual development.</p><p>I can't wait to share it with my friends!</p>",
+          "country": "United States"
+        },
+        "review_3": {
+          "iq": "IQ of 125",
+          "text": "<p>Excellent service! I took the test and was very satisfied with the accuracy and speed of the results.</p><p>It was an enriching experience that I would definitely recommend to anyone looking to learn more about their intelligence.</p>",
+          "country": "Germany"
+        },
+        "review_4": {
+          "iq": "IQ of 125",
+          "text": "<p>I decided to try this IQ test and was amazed by the result. It gave me a new perspective on my abilities and motivated me to keep challenging myself.</p><p>Definitely worth taking!</p>",
+          "country": "Mexico"
+        }
+      }
+    },
+    "countries": {
+      "title": "Average scores by country",
+      "description": "Discover how countries rank in IQ scores.",
+      "country": {
+        "it": "Italy",
+        "andorra": "Andorra",
+        "china": "China",
+        "japon": "Japan",
+        "uruguay": "Uruguay",
+        "guatemala": "Guatemala",
+        "ecuador": "Ecuador",
+        "romania": "Romania",
+        "venezuela": "Venezuela",
+        "bolivia": "Bolivia"
+      }
+    },
+    "popup": {
+      "message": "Just <span id='popup-minutes'>{{minutes}}</span> minute ago, <strong><span id='popup-name'>{{name}}</span></strong> from <strong><span id='popup-city'>{{city}}</span></strong> successfully completed their test and obtained their IQ certificate."
+    }
+  },
+  "login":{
+    "title": "Access your account"
+  },
+  "modal":{
+    "timeup.modal.title": "Time's Up",
+    "timeup.modal.body1": "You didn't answer all questions in time.",
+    "timeup.modal.body2": "Please retry the test. Make sure to answer all questions within the allocated time.",
+    "timeup.modal.close": "Close",
+    "timeup.modal.retry": "Retry"
+  },
+  "what-is-iq": {
+      "content": "<div class='section-header d-flex flex-column justify-content-center align-items-center col-12 my-3'><h3 class='text-center section-title col-12 fw-bold fs-2'>What is Intelligence Quotient (IQ)?</h3></div><img class='scale-img my-2 img-fluid' src='https://d2bmj4el5t1r3x.cloudfront.net/755832da-4beb-4f69-8b32-f51b47ca0bb0/img/ui/einstein.png' alt=''><p class='fw-light'>The term 'Intelligence Quotient' or IQ often comes up in conversations about mental capacity, academic potential, and life success. But what exactly is IQ? Is it simply a measure of how smart we are, or is there more to it?</p><p class='fw-light'>In essence, IQ is a numerical score derived from various standardized tests designed to assess human intelligence. Coined by German psychologist William Stern in the early 20th century, the concept has become a significant factor in a wide range of fields, from psychology and education to personnel recruitment.</p><p class='fw-light'>Understanding IQ is not just about knowing your score. It's about exploring the fascinating ways our minds work, how we differ in our cognitive abilities, and how these differences can impact various aspects of our lives. In this article, we'll delve into the origin of IQ, how it is measured, notable IQ records, and more.</p><div class='section-header d-flex flex-column justify-content-center align-items-center col-12 my-3'><h3 class='text-center section-title col-12 fw-bold fs-2'>History of IQ and Understanding Intelligence</h3></div><p class='fw-light'>The concept of IQ began with French psychologist Alfred Binet in the early 20th century, who was tasked by the French government with identifying students who needed additional educational support. Binet's test measured a student's mental age compared to their chronological age, laying the groundwork for IQ tests.</p><p class='fw-light'>The term 'Intelligence Quotient' was coined by German psychologist William Stern and initially calculated as the ratio of mental age to chronological age, multiplied by 100. However, this method did not fit well with adults, leading to modern IQ tests like the Stanford-Binet and the Wechsler Adult Intelligence Scale, designed for all ages.</p><p class='fw-light'>Understanding the intelligence quotient requires understanding 'intelligence,' broadly defined as the ability to learn, reason, and solve problems. It involves grasping complex ideas, adapting effectively to the environment, and learning from experience. Intelligence encompasses a wide range of abilities, not just academic or cognitive skills.</p><p class='fw-light'>Today's IQ tests attempt to measure a person's capacity for logical reasoning, problem-solving, and quick thinking, providing a 'snapshot' of a person's cognitive ability.</p><div class='section-header d-flex flex-column justify-content-center align-items-center col-12 my-3'><h3 class='text-center section-title col-12 fw-bold fs-2'>How is IQ Measured?</h3></div><img class='scale-img my-2 img-fluid' src='https://d2bmj4el5t1r3x.cloudfront.net/755832da-4beb-4f69-8b32-f51b47ca0bb0/img/ui/graph-iq.png' alt=''><p class='fw-light'>Intelligence quotient is measured using standardized tests designed to assess human intelligence. Two of the most common are the Stanford-Binet Intelligence Scale and the Wechsler Adult Intelligence Scale.</p><p class='fw-light'>The Stanford-Binet test, an evolution of Alfred Binet's original test, measures five factors of cognitive ability: knowledge, quantitative reasoning, visual-spatial processing, working memory, and fluid reasoning. It generates an IQ score by comparing the examinee's performance with that of others in the same age group.</p><p class='fw-light'>The Wechsler Adult Intelligence Scale, on the other hand, evaluates verbal comprehension, perceptual reasoning, working memory, and processing speed. It also compares the examinee's performance with age-specific norms.</p><p class='fw-light'>In both tests, scores are designed to fall into a normal distribution, or a 'bell curve.' The average score is set at 100, and approximately 68% of all scores fall within one standard deviation (15 points) of the mean. This means that most people's IQ scores are expected to be between 85 and 115. Scores above 130 are considered in the 'Very Superior' range, and those below 70 in the 'Very Low' range.</p><p class='fw-light'>These tests provide a standard and consistent method for evaluating a person's cognitive abilities, though they certainly do not capture all aspects of human intelligence.</p><div class='section-header d-flex flex-column justify-content-center align-items-center col-12 my-3'><h3 class='text-center section-title col-12 fw-bold fs-2'>IQ Records and Extremes</h3></div><div class='section-header d-flex flex-column justify-content-center align-items-center col-12'><h5 class='text-center col-12 fw-bold fs-4'>Highest Recorded IQ Score</h5></div><img class='scale-img my-2 img-fluid' src='https://d2bmj4el5t1r3x.cloudfront.net/755832da-4beb-4f69-8b32-f51b47ca0bb0/img/ui/pic1.png' alt=''><p class='fw-light'>William James Sidis, an American child prodigy, is said to have had an IQ score between 250-300, but this figure is largely speculative as he was tested using different methods and not modern scales. He could read the New York Times at 18 months and taught himself Latin and Greek by the age of 5.</p><div class='section-header d-flex flex-column justify-content-center align-items-center col-12'><h5 class='text-center col-12 fw-bold fs-4'>Highest Confirmed IQ Score</h5></div><img class='scale-img my-2 img-fluid' src='https://d2bmj4el5t1r3x.cloudfront.net/755832da-4beb-4f69-8b32-f51b47ca0bb0/img/ui/pic2.png' alt=''><p class='fw-light'>According to the Guinness Book of World Records, the highest IQ ever tested is 228 by Marilyn vos Savant, an American author, lecturer, and playwright.</p><div class='section-header d-flex flex-column justify-content-center align-items-center col-12'><h5 class='text-center col-12 fw-bold fs-4'>One of the Highest Childhood IQs</h5></div><img class='scale-img my-2 img-fluid' src='https://d2bmj4el5t1r3x.cloudfront.net/755832da-4beb-4f69-8b32-f51b47ca0bb0/img/ui/pic3.png' alt=''><p class='fw-light'>Reportedly, Kim Ung-yong scored 210 on an IQ test at the age of 4, although this test was not based on standard IQ assessment norms. Born in South Korea, Kim is known for his proficiency in multiple languages and advanced mathematical skills during his childhood. Despite his high IQ, Kim often speaks about the importance of happiness over intelligence.</p>",
+      "title": "Ready to challenge the greatest of all?",
+      "people": {
+        "title": "Compare your IQ with that of celebrities",
+        "people_1": "Bill Gates, co-founder of Microsoft, influential philanthropist, technology visionary, one of the richest men in the world.",
+        "people_2": "Will Smith, American actor, known for 'Men in Black', 'Independence Day', and 'The Fresh Prince of Bel-Air'.",
+        "people_3": "Madonna, American singer, pop icon, innovator, queen of music, influential since the '80s.",
+        "people_4": "Tom Cruise, American actor, known for 'Top Gun' and 'Mission Impossible', charismatic and talented."
+      }
+  },
+  "email":{
+    "emailSubject": "Your IQ certificate | IQ Exam Online",
+    "emailText": "Dear {{ name }},\n\nCongratulations on your achievement! Attached is your certificate.\n\nBest regards,\nIQ Examn Online",
+    "htmlBody": "<table style='width: 100%; background: #7a9abe; padding: 30px 50px;'><tr><td align='center'><table><tr><td align='center'><a href='https://iqexamonline.com'><img src='https://firebasestorage.googleapis.com/v0/b/testiq-abc9f.appspot.com/o/TestIqOnlineWhite.png?alt=media&token=0544be48-351c-4a2c-a740-e8b786b40a87'></a></td></tr><tr><td><h1 style='color: #fff; text-align: center; font-size: 40px'>Congratulations {{name}} 🎉!</h1></td></tr><tr><td align='center'><p style='color: #fff; text-align: center; font-size: 18px; margin-bottom: 100px; width: 100%; max-width: 600px;'>We are pleased to inform you that your score has been successfully processed. Attached you will find your IQ certificate based on the test you completed on our website.</p></td></tr><tr><td align='center'><p style='color: #fff; text-align: end; width:70%; font-size: 14px'>The <strong>IQExamOnline</strong> team</p></td></tr></table></td></tr></table>"
+  }
+}
