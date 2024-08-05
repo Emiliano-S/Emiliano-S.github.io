@@ -78,8 +78,39 @@
           align-items: center;
           z-index: 1000;
         }
-
-      </style>
+        /* Personalizzazione del bottone del dropdown */
+        .btn-outline-primary {
+            border-color: #007bff;
+            color: #007bff;
+          }
+          
+          .btn-outline-primary:hover {
+            background-color: #007bff;
+            color: #fff;
+          }
+          
+          /* Personalizzazione del dropdown */
+          .dropdown-menu {
+            min-width: 200px;
+            /* Aggiungi ulteriori personalizzazioni qui */
+          }
+          
+          /* Stile per gli elementi del menu */
+          .dropdown-item {
+            padding: 8px 16px;
+            font-size: 14px;
+            transition: background-color 0.2s ease;
+          }
+          
+          .dropdown-item:hover {
+            background-color: #f8f9fa;
+          }
+          
+          /* Se vuoi nascondere il dropdown quando è chiuso */
+          .dropdown-menu.show {
+            display: block;
+          }
+        </style>
     </head>
     <body>
       <div id="loading-overlay" class="loading-screen">
