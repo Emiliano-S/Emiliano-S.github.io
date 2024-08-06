@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function loadTranslation(language, callback) {
-    fetch(`assets/i18n/${language}.json`)
+    fetch(`app/assets/i18n/${language}.json`)
       .then((response) => {
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);
