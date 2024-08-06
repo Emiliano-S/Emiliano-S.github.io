@@ -104,6 +104,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "footer.terms": translation.footer.terms,
         "footer.policy": translation.footer.policy,
         "footer.contact_email": translation.footer.contact_email,
+        "navbar.take_test": translation.navbar.take_test,"navbar.price": translation.navbar.price,"navbar.why": translation.navbar.why,"navbar.reviews": translation.navbar.reviews,"navbar.take_test": translation.navbar.take_test,
       };
 
       for (const [id, content] of Object.entries(elements)) {
