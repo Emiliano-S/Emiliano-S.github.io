@@ -965,12 +965,29 @@
           updatePeopleOnline();const languageDropdown=document.getElementById("language-dropdown");getLanguageKeys().forEach((key)=>{const button=document.createElement("button");button.type="button";button.classList.add("dropdown-item","d-flex","justify-content-start","align-items-center","gap-2");button.textContent=languages[key];button.onclick=()=>changeLanguage(key);languageDropdown.appendChild(button)});document.getElementById("dropdownBasic2").addEventListener("click",function(){const expanded=this.getAttribute("aria-expanded")==="true";this.setAttribute("aria-expanded",!expanded);languageDropdown.classList.toggle("show",!expanded)});document.addEventListener("click",function(event){if(!document.getElementById("dropdownBasic2").contains(event.target)){document.getElementById("dropdownBasic2").setAttribute("aria-expanded","false");languageDropdown.classList.remove("show")}});const currencyDropdown=document.getElementById("currency-dropdown");getCurrencyKeys().forEach((key)=>{const button=document.createElement("button");button.type="button";button.classList.add("dropdown-item","d-flex","justify-content-start","align-items-center","gap-2");button.textContent=currencies[key];button.onclick=()=>changeCurrency(key);currencyDropdown.appendChild(button)});document.getElementById("dropdownCurrency").addEventListener("click",toggleCurrencyDropdown);document.addEventListener("click",handleCurrencyClickOutside);updateCurrencySelector()}
           initializeApp()})
             </script>
-      <!-- <script type="text/javascript" src="//www.freeprivacypolicy.com/public/cookie-consent/4.1.0/cookie-consent.js" charset="UTF-8"></script>
-        <script type="text/javascript" charset="UTF-8">
-        document.addEventListener('DOMContentLoaded', function () {
-        cookieconsent.run({"notice_banner_type":"simple","consent_type":"express","palette":"light","language":"es","page_load_consent_levels":["strictly-necessary"],"notice_banner_reject_button_hide":false,"preferences_center_close_button_hide":false,"page_refresh_confirmation_buttons":false,"website_name":"https://iqexamonline.com"});
-        });
-      </script> -->
+        <script>
+          document.addEventListener('DOMContentLoaded', function () {
+            // Carica il cookie consent script
+            var script = document.createElement('script');
+            let language = localStorage.getItem('preferredLanguage')
+            script.src = '//www.freeprivacypolicy.com/public/cookie-consent/4.1.0/cookie-consent.js';
+            script.charset = 'UTF-8';
+            script.onload = function() {
+              cookieconsent.run({
+                "notice_banner_type": "simple",
+                "consent_type": "express",
+                "palette": "light",
+                "language": language,
+                "page_load_consent_levels": ["strictly-necessary"],
+                "notice_banner_reject_button_hide": false,
+                "preferences_center_close_button_hide": false,
+                "page_refresh_confirmation_buttons": false,
+                "website_name": "https://iqexamonline.com"
+              });
+            };
+            document.head.appendChild(script);
+          });
+        </script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" async></script>
       <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
 </body>
