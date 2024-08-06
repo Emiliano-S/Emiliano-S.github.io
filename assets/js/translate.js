@@ -104,7 +104,11 @@ document.addEventListener("DOMContentLoaded", () => {
         "footer.terms": translation.footer.terms,
         "footer.policy": translation.footer.policy,
         "footer.contact_email": translation.footer.contact_email,
-        "navbar.take_test": translation.navbar.take_test,"navbar.price": translation.navbar.price,"navbar.why": translation.navbar.why,"navbar.reviews": translation.navbar.reviews,"navbar.take_test": translation.navbar.take_test,
+        "navbar.take_test": translation.navbar.take_test,
+        "navbar.price": translation.navbar.price,
+        "navbar.why": translation.navbar.why,
+        "navbar.reviews": translation.navbar.reviews,
+        "navbar.take_test": translation.navbar.take_test,
       };
 
       for (const [id, content] of Object.entries(elements)) {
@@ -155,9 +159,21 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
+  function getQueryParam(param) {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get(param);
+  }
+
   // Gestione della valuta
   const currencies = { usd: "USD $", eur: "Euro €" };
   let currency = localStorage.getItem("preferredCurrency") || "eur";
+
+  // Verifica el parámetro 'currency' en la URL y actualiza la moneda si está presente
+  const urlCurrency = getQueryParam("currency");
+  if (urlCurrency && currencies.hasOwnProperty(urlCurrency)) {
+    currency = urlCurrency;
+    localStorage.setItem("preferredCurrency", currency);
+  }
 
   function getCurrencyKeys() {
     return Object.keys(currencies);
