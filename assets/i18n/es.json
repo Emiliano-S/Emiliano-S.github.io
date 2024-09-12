@@ -179,6 +179,16 @@
           "update_button": "Actualizar",
           "price_id": "ID de precio de Stripe para la suscripción"
         },
+        "facebook": {
+          "title": "Configuración del píxel de Facebook",
+          "addNewPixel": "Agregar nuevo píxel de Facebook",
+          "pixelName": "Nombre del píxel:",
+          "pixelModalTitle": "Agregar nuevo píxel de Facebook",
+          "addPixel": "Agregar píxel",
+          "pixelModalTitleEdit": "Editar píxel de Facebook",
+          "saveChanges": "Guardar cambios",
+          "deletePixel": "Eliminar píxel"
+        },
         "languages": {
           "title": "Idiomas",
           "delete_button": "Eliminar",

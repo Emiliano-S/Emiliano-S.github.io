@@ -179,6 +179,16 @@
           "update_button": "Update",
           "price_id": "Stripe price id for subscription"
         },
+        "facebook":{
+          "title": "Facebook pixel configuration",
+          "addNewPixel": "Add new Facebook pixel",
+          "pixelName": "Pixel name:",
+          "pixelModalTitle": "Add new Facebook pixel",
+          "addPixel": "Add pixel",
+          "pixelModalTitleEdit": "Edit Facebook pixel",
+          "saveChanges": "Save changes",
+          "deletePixel": "Delete pixel"
+        },
         "languages":{
           "title": "Languages",
           "delete_button": "Delete",
